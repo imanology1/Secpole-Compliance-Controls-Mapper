@@ -26194,3 +26194,1241 @@ NIST800-53,RA-06,SEBI_CSCRF,VAPT,equivalent
 NIST800-53,RA-06,CMMC_2,RA,equivalent
 NIST800-53,RA-06,CBEST,CBEST.4,equivalent
 NIST800-53,RA-06,TIBER_EU,TIBER.RT,equivalent
+SCF,GOV-01,EU-AIACT,Article 17.2,equivalent
+SCF,GOV-04,EU-AIACT,Article 17.1(m),equivalent
+SCF,GOV-04.1,EU-AIACT,Article 17.1(m),equivalent
+SCF,GOV-15,EU-AIACT,Article 17.2,equivalent
+SCF,GOV-15.2,EU-AIACT,Article 17.1(e),equivalent
+SCF,GOV-18,EU-AIACT,Article 16(c),equivalent
+SCF,GOV-18,EU-AIACT,Article 17.1,equivalent
+SCF,AAT-01,EU-AIACT,Article 17.1(c),equivalent
+SCF,AAT-01.1,EU-AIACT,Article 17.1(e),equivalent
+SCF,AAT-02.1,EU-AIACT,Article 9.1,equivalent
+SCF,AAT-02.2,EU-AIACT,Article 17.1(e),equivalent
+SCF,AAT-02.3,EU-AIACT,Article 55.1(d),equivalent
+SCF,AAT-02.3,EU-AIACT,Article 55.2,equivalent
+SCF,AAT-03,EU-AIACT,Article 8.1,equivalent
+SCF,AAT-04.2,EU-AIACT,Article 9.2(b),equivalent
+SCF,AAT-07,EU-AIACT,Article 9.2(a),equivalent
+SCF,AAT-07.1,EU-AIACT,Article 27.2,equivalent
+SCF,AAT-07.1,EU-AIACT,Article 27.4,equivalent
+SCF,AAT-07.2,EU-AIACT,Article 9.9,equivalent
+SCF,AAT-09,EU-AIACT,Article 9.2(a),equivalent
+SCF,AAT-09,EU-AIACT,Article 9.2(b),equivalent
+SCF,AAT-09,EU-AIACT,Article 13.1,equivalent
+SCF,AAT-09,EU-AIACT,Article 17.1(g),equivalent
+SCF,AAT-09.1,EU-AIACT,Article 6.1,equivalent
+SCF,AAT-09.1,EU-AIACT,Article 6.1(a),equivalent
+SCF,AAT-09.1,EU-AIACT,Article 6.3,equivalent
+SCF,AAT-09.1,EU-AIACT,Article 13.1,equivalent
+SCF,AAT-09.1,EU-AIACT,Article 51.1,equivalent
+SCF,AAT-09.1,EU-AIACT,Article 51.1(a),equivalent
+SCF,AAT-09.1,EU-AIACT,Article 51.2,equivalent
+SCF,AAT-10,EU-AIACT,Article 9.6,equivalent
+SCF,AAT-10,EU-AIACT,Article 11.1,equivalent
+SCF,AAT-10,EU-AIACT,Article 16(f),equivalent
+SCF,AAT-10,EU-AIACT,Article 17.1(b),equivalent
+SCF,AAT-10,EU-AIACT,Article 17.1(d),equivalent
+SCF,AAT-10,EU-AIACT,Article 23.1,equivalent
+SCF,AAT-10,EU-AIACT,Article 23.1(a),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1,equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1(a),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1(b),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1(c),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1(d),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1(e),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.1(f),equivalent
+SCF,AAT-10,EU-AIACT,Article 27.2,equivalent
+SCF,AAT-10,EU-AIACT,Article 55.1(a),equivalent
+SCF,AAT-10,EU-AIACT,Article 55.1(b),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.1,equivalent
+SCF,AAT-10,EU-AIACT,Article 60.2,equivalent
+SCF,AAT-10,EU-AIACT,Article 60.3,equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(a),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(b),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(c),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(d),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(e),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(f),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(g),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(h),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(i),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(j),equivalent
+SCF,AAT-10,EU-AIACT,Article 60.4(k),equivalent
+SCF,AAT-10.3,EU-AIACT,Article 9.6,equivalent
+SCF,AAT-10.4,EU-AIACT,Article 9.6,equivalent
+SCF,AAT-10.5,EU-AIACT,Article 9.6,equivalent
+SCF,AAT-10.8,EU-AIACT,Article 10.2(f),equivalent
+SCF,AAT-10.8,EU-AIACT,Article 10.2(g),equivalent
+SCF,AAT-10.8,EU-AIACT,Article 10.4,equivalent
+SCF,AAT-10.8,EU-AIACT,Article 10.5,equivalent
+SCF,AAT-10.8,EU-AIACT,Article 10.5(a),equivalent
+SCF,AAT-10.12,EU-AIACT,Article 9.7,equivalent
+SCF,AAT-10.12,EU-AIACT,Article 10.3,equivalent
+SCF,AAT-10.13,EU-AIACT,Article 17.1(h),equivalent
+SCF,AAT-10.15,EU-AIACT,Article 27.3,equivalent
+SCF,AAT-10.15,EU-AIACT,Article 60.7,equivalent
+SCF,AAT-10.15,EU-AIACT,Article 60.8,equivalent
+SCF,AAT-11.2,EU-AIACT,Article 17.1(h),equivalent
+SCF,AAT-11.4,EU-AIACT,Article 17.1(i),equivalent
+SCF,AAT-12,EU-AIACT,Article 17.1(f),equivalent
+SCF,AAT-12,EU-AIACT,Article 53.1(c),equivalent
+SCF,AAT-12.1,EU-AIACT,Article 17.1(f),equivalent
+SCF,AAT-12.2,EU-AIACT,Article 17.1(f),equivalent
+SCF,AAT-12.3,EU-AIACT,Article 53.1(d),equivalent
+SCF,AAT-13.1,EU-AIACT,Article 4,equivalent
+SCF,AAT-14,EU-AIACT,Article 11.1,equivalent
+SCF,AAT-14,EU-AIACT,Article 12.2(a),equivalent
+SCF,AAT-15.2,EU-AIACT,Article 14.2,equivalent
+SCF,AAT-15.2,EU-AIACT,Article 14.4(d),equivalent
+SCF,AAT-15.2,EU-AIACT,Article 14.4(e),equivalent
+SCF,AAT-16,EU-AIACT,Article 12.1,equivalent
+SCF,AAT-16,EU-AIACT,Article 12.2(a),equivalent
+SCF,AAT-16,EU-AIACT,Article 12.2(b),equivalent
+SCF,AAT-16,EU-AIACT,Article 12.2(c),equivalent
+SCF,AAT-16,EU-AIACT,Article 14.2,equivalent
+SCF,AAT-16,EU-AIACT,Article 15.3,equivalent
+SCF,AAT-16,EU-AIACT,Article 17.1(h),equivalent
+SCF,AAT-16,EU-AIACT,Article 72.1,equivalent
+SCF,AAT-16,EU-AIACT,Article 72.2,equivalent
+SCF,AAT-16,EU-AIACT,Article 72.3,equivalent
+SCF,AAT-16,EU-AIACT,Article 72.4,equivalent
+SCF,AAT-16.3,EU-AIACT,Article 12.2(a),equivalent
+SCF,AAT-16.8,EU-AIACT,Article 12.1,equivalent
+SCF,AAT-16.8,EU-AIACT,Article 12.2,equivalent
+SCF,AAT-16.8,EU-AIACT,Article 12.3(a),equivalent
+SCF,AAT-16.8,EU-AIACT,Article 12.3(b),equivalent
+SCF,AAT-16.8,EU-AIACT,Article 12.3(c),equivalent
+SCF,AAT-16.8,EU-AIACT,Article 12.3(d),equivalent
+SCF,AAT-16.8,EU-AIACT,Article 16(e),equivalent
+SCF,AAT-16.8,EU-AIACT,Article 26.6,equivalent
+SCF,AAT-16.9,EU-AIACT,Article 55.1(c),equivalent
+SCF,AAT-16.9,EU-AIACT,Article 60.7,equivalent
+SCF,AAT-16.9,EU-AIACT,Article 73.1,equivalent
+SCF,AAT-16.9,EU-AIACT,Article 73.2,equivalent
+SCF,AAT-16.9,EU-AIACT,Article 73.3,equivalent
+SCF,AAT-16.9,EU-AIACT,Article 73.4,equivalent
+SCF,AAT-16.9,EU-AIACT,Article 73.5,equivalent
+SCF,AAT-16.10,EU-AIACT,Article 73.6,equivalent
+SCF,AAT-17,EU-AIACT,Article 14.2,equivalent
+SCF,AAT-17.3,EU-AIACT,Article 20.2,equivalent
+SCF,AAT-18,EU-AIACT,Article 20.2,equivalent
+SCF,AAT-18.1,EU-AIACT,Article 20.2,equivalent
+SCF,AAT-19,EU-AIACT,Article 5.1,equivalent
+SCF,AAT-19.1,EU-AIACT,Article 5.1(a),equivalent
+SCF,AAT-19.2,EU-AIACT,Article 5.1(b),equivalent
+SCF,AAT-19.3,EU-AIACT,Article 5.1(c),equivalent
+SCF,AAT-19.4,EU-AIACT,Article 5.1(c)(i),equivalent
+SCF,AAT-19.4,EU-AIACT,Article 5.1(c)(ii),equivalent
+SCF,AAT-19.5,EU-AIACT,Article 5.1(d),equivalent
+SCF,AAT-19.6,EU-AIACT,Article 5.1(e),equivalent
+SCF,AAT-19.7,EU-AIACT,Article 5.1(f),equivalent
+SCF,AAT-19.8,EU-AIACT,Article 5.1(g),equivalent
+SCF,AAT-20,EU-AIACT,Article 13.1,equivalent
+SCF,AAT-20,EU-AIACT,Article 14.1,equivalent
+SCF,AAT-20,EU-AIACT,Article 14.3(a),equivalent
+SCF,AAT-20,EU-AIACT,Article 14.3(b),equivalent
+SCF,AAT-20,EU-AIACT,Article 15.1,equivalent
+SCF,AAT-20,EU-AIACT,Article 15.4,equivalent
+SCF,AAT-20,EU-AIACT,Article 15.5,equivalent
+SCF,AAT-20,EU-AIACT,Article 16(a),equivalent
+SCF,AAT-20,EU-AIACT,Article 17.1(b),equivalent
+SCF,AAT-20.1,EU-AIACT,Article 13.1,equivalent
+SCF,AAT-20.1,EU-AIACT,Article 14.3(b),equivalent
+SCF,AAT-20.1,EU-AIACT,Article 14.4,equivalent
+SCF,AAT-20.1,EU-AIACT,Article 14.4(a),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.2,equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(a),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(i),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(ii),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(iii),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(iv),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(v),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(vi),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(b)(vii),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(c),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(d),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(e),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 13.3(f),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 14.4,equivalent
+SCF,AAT-20.2,EU-AIACT,Article 14.4(a),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 15.3,equivalent
+SCF,AAT-20.2,EU-AIACT,Article 53.1(b),equivalent
+SCF,AAT-20.2,EU-AIACT,Article 53.1(b)(i),equivalent
+SCF,AAT-21,EU-AIACT,Article 16(i),equivalent
+SCF,AAT-21,EU-AIACT,Article 22.3(e),equivalent
+SCF,AAT-21,EU-AIACT,Article 26.8,equivalent
+SCF,AAT-21,EU-AIACT,Article 49.1,equivalent
+SCF,AAT-21,EU-AIACT,Article 49.2,equivalent
+SCF,AAT-21,EU-AIACT,Article 49.3,equivalent
+SCF,AAT-21,EU-AIACT,Article 52.1,equivalent
+SCF,AAT-21,EU-AIACT,Article 52.2,equivalent
+SCF,AAT-22,EU-AIACT,Article 26.1,equivalent
+SCF,AAT-22.1,EU-AIACT,Article 14.2,equivalent
+SCF,AAT-22.2,EU-AIACT,Article 14.3,equivalent
+SCF,AAT-22.3,EU-AIACT,Article 14.4(b),equivalent
+SCF,AAT-22.3,EU-AIACT,Article 14.4(c),equivalent
+SCF,AAT-22.3,EU-AIACT,Article 14.5,equivalent
+SCF,AAT-22.4,EU-AIACT,Article 26.2,equivalent
+SCF,AAT-22.5,EU-AIACT,Article 26.4,equivalent
+SCF,AAT-22.6,EU-AIACT,Article 26.5,equivalent
+SCF,AAT-22.7,EU-AIACT,Article 26.7,equivalent
+SCF,AAT-22.8,EU-AIACT,Article 26.11,equivalent
+SCF,AAT-22.8,EU-AIACT,Article 50.1,equivalent
+SCF,AAT-22.8,EU-AIACT,Article 50.3,equivalent
+SCF,AAT-22.8,EU-AIACT,Article 50.5,equivalent
+SCF,AAT-23,EU-AIACT,Article 50.2,equivalent
+SCF,AAT-23,EU-AIACT,Article 50.4,equivalent
+SCF,AAT-24,EU-AIACT,Article 9.7,equivalent
+SCF,AAT-24,EU-AIACT,Article 61.1,equivalent
+SCF,AAT-24,EU-AIACT,Article 61.1(a),equivalent
+SCF,AAT-24,EU-AIACT,Article 61.1(b),equivalent
+SCF,AAT-24,EU-AIACT,Article 61.1(c),equivalent
+SCF,AAT-24,EU-AIACT,Article 61.1(d),equivalent
+SCF,AAT-24,EU-AIACT,Article 61.1(e),equivalent
+SCF,AAT-24,EU-AIACT,Article 61.2,equivalent
+SCF,AST-31.2,EU-AIACT,Article 6.3,equivalent
+SCF,CPL-01,EU-AIACT,Article 16(l),equivalent
+SCF,CPL-01,EU-AIACT,Article 17.1(a),equivalent
+SCF,CPL-01,EU-AIACT,Article 21.3,equivalent
+SCF,CPL-01,EU-AIACT,Article 40.1,equivalent
+SCF,CPL-01.1,EU-AIACT,Article 10.2(h),equivalent
+SCF,CPL-01.1,EU-AIACT,Article 16(j),equivalent
+SCF,CPL-01.1,EU-AIACT,Article 20.1,equivalent
+SCF,CPL-01.1,EU-AIACT,Article 41.5,equivalent
+SCF,CPL-01.3,EU-AIACT,Article 11.1,equivalent
+SCF,CPL-01.3,EU-AIACT,Article 16(k),equivalent
+SCF,CPL-01.3,EU-AIACT,Article 21.1,equivalent
+SCF,CPL-01.3,EU-AIACT,Article 22.3,equivalent
+SCF,CPL-01.3,EU-AIACT,Article 22.3(a),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 16(f),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.1,equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.1(a),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.1(b)(a),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.1(b)(b),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.1(b)(c),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.1(b)(d),equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.2,equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.3,equivalent
+SCF,CPL-01.4,EU-AIACT,Article 43.4,equivalent
+SCF,CPL-01.5,EU-AIACT,Article 16(g),equivalent
+SCF,CPL-01.5,EU-AIACT,Article 47.1,equivalent
+SCF,CPL-01.5,EU-AIACT,Article 47.2,equivalent
+SCF,CPL-01.5,EU-AIACT,Article 47.3,equivalent
+SCF,CPL-01.5,EU-AIACT,Article 47.4,equivalent
+SCF,CPL-02.3,EU-AIACT,Article 79.4,equivalent
+SCF,CPL-02.3,EU-AIACT,Article 80.4,equivalent
+SCF,CPL-02.3,EU-AIACT,Article 80.5,equivalent
+SCF,CPL-02.3,EU-AIACT,Article 82.2,equivalent
+SCF,CPL-02.3,EU-AIACT,Article 93.1(a),equivalent
+SCF,CPL-02.3,EU-AIACT,Article 93.1(b),equivalent
+SCF,CPL-02.3,EU-AIACT,Article 93.1(c),equivalent
+SCF,CPL-05,EU-AIACT,Article 21.1,equivalent
+SCF,CPL-05,EU-AIACT,Article 22.3(c),equivalent
+SCF,CPL-05,EU-AIACT,Article 22.3(d),equivalent
+SCF,CPL-05,EU-AIACT,Article 24.5,equivalent
+SCF,CPL-05,EU-AIACT,Article 24.6,equivalent
+SCF,CPL-05,EU-AIACT,Article 91.4,equivalent
+SCF,CPL-05,EU-AIACT,Article 91.5,equivalent
+SCF,CPL-05,EU-AIACT,Article 92.4,equivalent
+SCF,CPL-05,EU-AIACT,Article 92.5,equivalent
+SCF,CPL-05.2,EU-AIACT,Article 21.2,equivalent
+SCF,CPL-08,EU-AIACT,Article 22.1,equivalent
+SCF,CPL-08,EU-AIACT,Article 22.2,equivalent
+SCF,CPL-08,EU-AIACT,Article 22.3,equivalent
+SCF,CPL-08,EU-AIACT,Article 23.1(d),equivalent
+SCF,CPL-08,EU-AIACT,Article 54.1,equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.2,equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.3,equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.3(a),equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.3(b),equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.3(c),equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.3(d),equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.4,equivalent
+SCF,CPL-08.1,EU-AIACT,Article 54.5,equivalent
+SCF,CFG-02,EU-AIACT,Article 17.1(e),equivalent
+SCF,CFG-02.5,EU-AIACT,Article 14.3(a),equivalent
+SCF,MON-01.4,EU-AIACT,Article 12.1,equivalent
+SCF,MON-10,EU-AIACT,Article 19.1,equivalent
+SCF,MON-10,EU-AIACT,Article 19.2,equivalent
+SCF,DCH-01,EU-AIACT,Article 17.1(f),equivalent
+SCF,DCH-02,EU-AIACT,Article 17.1(f),equivalent
+SCF,DCH-18,EU-AIACT,Article 16(d),equivalent
+SCF,DCH-18,EU-AIACT,Article 18.1,equivalent
+SCF,DCH-18,EU-AIACT,Article 18.1(a),equivalent
+SCF,DCH-18,EU-AIACT,Article 18.1(b),equivalent
+SCF,DCH-18,EU-AIACT,Article 18.1(c),equivalent
+SCF,DCH-18,EU-AIACT,Article 18.1(d),equivalent
+SCF,DCH-18,EU-AIACT,Article 18.1(e),equivalent
+SCF,DCH-18,EU-AIACT,Article 18.3,equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.2,equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.2(a),equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.2(b),equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.2(c),equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.2(d),equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.2(e),equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.3,equivalent
+SCF,DCH-18.2,EU-AIACT,Article 10.6,equivalent
+SCF,DCH-22,EU-AIACT,Article 10.3,equivalent
+SCF,DCH-22,EU-AIACT,Article 17.1(f),equivalent
+SCF,DCH-23,EU-AIACT,Article 10.5(b),equivalent
+SCF,IRO-10,EU-AIACT,Article 17.1(j),equivalent
+SCF,IRO-10.2,EU-AIACT,Article 17.1(j),equivalent
+SCF,IAO-01,EU-AIACT,Article 9.8,equivalent
+SCF,IAO-02,EU-AIACT,Article 9.8,equivalent
+SCF,IAO-03,EU-AIACT,Article 11.1,equivalent
+SCF,PRI-01,EU-AIACT,Article 10.5,equivalent
+SCF,PRI-01.6,EU-AIACT,Article 10.5(b),equivalent
+SCF,PRI-01.6,EU-AIACT,Article 10.5(c),equivalent
+SCF,PRI-05,EU-AIACT,Article 10.5(e),equivalent
+SCF,PRI-05.4,EU-AIACT,Article 10.5(c),equivalent
+SCF,PRI-05.4,EU-AIACT,Article 10.5(d),equivalent
+SCF,PRI-05.7,EU-AIACT,Article 10.5,equivalent
+SCF,PRI-14,EU-AIACT,Article 10.5(f),equivalent
+SCF,PRM-03,EU-AIACT,Article 17.1(l),equivalent
+SCF,PRM-05,EU-AIACT,Article 14.3(b),equivalent
+SCF,RSK-01,EU-AIACT,Article 8.1,equivalent
+SCF,RSK-01,EU-AIACT,Article 9.1,equivalent
+SCF,RSK-01,EU-AIACT,Article 9.2,equivalent
+SCF,RSK-01,EU-AIACT,Article 9.4,equivalent
+SCF,RSK-01,EU-AIACT,Article 9.5,equivalent
+SCF,RSK-01,EU-AIACT,Article 9.9,equivalent
+SCF,RSK-01,EU-AIACT,Article 17.1(g),equivalent
+SCF,RSK-03,EU-AIACT,Article 9.2(c),equivalent
+SCF,RSK-04,EU-AIACT,Article 9.2(c),equivalent
+SCF,RSK-06,EU-AIACT,Article 9.2(d),equivalent
+SCF,RSK-06.1,EU-AIACT,Article 9.4,equivalent
+SCF,RSK-06.1,EU-AIACT,Article 9.5,equivalent
+SCF,RSK-06.1,EU-AIACT,Article 9.5(a),equivalent
+SCF,RSK-06.1,EU-AIACT,Article 9.5(b),equivalent
+SCF,RSK-06.2,EU-AIACT,Article 9.5(b),equivalent
+SCF,RSK-09,EU-AIACT,Article 17.1(l),equivalent
+SCF,RSK-10,EU-AIACT,Article 26.9,equivalent
+SCF,SEA-01.2,EU-AIACT,Article 15.4,equivalent
+SCF,SEA-02.1,EU-AIACT,Article 3,equivalent
+SCF,SAT-03,EU-AIACT,Article 9.5(c),equivalent
+SCF,TDA-01,EU-AIACT,Article 14.4,equivalent
+SCF,TDA-01.1,EU-AIACT,Article 14.3(b),equivalent
+SCF,TDA-02.3,EU-AIACT,Article 14.1,equivalent
+SCF,TDA-04,EU-AIACT,Article 11.1,equivalent
+SCF,TDA-21,EU-AIACT,Article 8.1,equivalent
+SCF,TDA-21,EU-AIACT,Article 8.2,equivalent
+SCF,TDA-21,EU-AIACT,Article 10.1,equivalent
+SCF,TDA-21,EU-AIACT,Article 23.1(c),equivalent
+SCF,TDA-21,EU-AIACT,Article 23.2,equivalent
+SCF,TDA-21,EU-AIACT,Article 23.3,equivalent
+SCF,TDA-21,EU-AIACT,Article 23.4,equivalent
+SCF,TDA-21,EU-AIACT,Article 23.5,equivalent
+SCF,TDA-21,EU-AIACT,Article 23.6,equivalent
+SCF,TDA-21,EU-AIACT,Article 23.7,equivalent
+SCF,TDA-21,EU-AIACT,Article 24.1,equivalent
+SCF,TDA-21,EU-AIACT,Article 24.2,equivalent
+SCF,TDA-21,EU-AIACT,Article 24.3,equivalent
+SCF,TDA-21,EU-AIACT,Article 24.4,equivalent
+SCF,TDA-21,EU-AIACT,Article 25.1,equivalent
+SCF,TDA-21,EU-AIACT,Article 25.1(a),equivalent
+SCF,TDA-21,EU-AIACT,Article 25.1(b),equivalent
+SCF,TDA-21,EU-AIACT,Article 25.1(c),equivalent
+SCF,TDA-21,EU-AIACT,Article 25.2,equivalent
+SCF,TDA-21,EU-AIACT,Article 25.4,equivalent
+SCF,TDA-21,EU-AIACT,Article 48.1,equivalent
+SCF,TDA-21,EU-AIACT,Article 48.2,equivalent
+SCF,TDA-21,EU-AIACT,Article 48.3,equivalent
+SCF,TDA-21,EU-AIACT,Article 48.4,equivalent
+SCF,TDA-21,EU-AIACT,Article 48.5,equivalent
+SCF,TDA-21,EU-AIACT,Article 53.1(b)(ii),equivalent
+SCF,TDA-21,EU-AIACT,Article 53.1(c),equivalent
+SCF,TDA-21,EU-AIACT,Article 111.3,equivalent
+SCF,TDA-22,EU-AIACT,Article 11.1,equivalent
+SCF,TDA-22,EU-AIACT,Article 11.2,equivalent
+SCF,TDA-22,EU-AIACT,Article 17.1(k),equivalent
+SCF,TDA-22,EU-AIACT,Article 23.1(b),equivalent
+SCF,TDA-22,EU-AIACT,Article 53.1(a),equivalent
+SCF,GOV-01.1,NIST-AIRMF,GOVERN 2.3,equivalent
+SCF,GOV-01.1,NIST-AIRMF,MAP 3.5,equivalent
+SCF,GOV-01.1,NIST-AIRMF,MAP 5.2,equivalent
+SCF,GOV-01.2,NIST-AIRMF,GOVERN 2.3,equivalent
+SCF,GOV-01.2,NIST-AIRMF,MAP 3.5,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 1.0,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 1.4,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 3.2,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 5.1,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 6.0,equivalent
+SCF,GOV-02,NIST-AIRMF,GOVERN 6.1,equivalent
+SCF,GOV-02,NIST-AIRMF,MAP 3.5,equivalent
+SCF,GOV-04,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,GOV-04,NIST-AIRMF,GOVERN 2.1,equivalent
+SCF,GOV-04,NIST-AIRMF,GOVERN 2.3,equivalent
+SCF,GOV-04,NIST-AIRMF,GOVERN 5.0,equivalent
+SCF,GOV-04.1,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,GOV-04.1,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,GOV-04.1,NIST-AIRMF,GOVERN 2.1,equivalent
+SCF,GOV-04.1,NIST-AIRMF,GOVERN 5.0,equivalent
+SCF,GOV-04.1,NIST-AIRMF,MANAGE 2.4,equivalent
+SCF,GOV-04.2,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,GOV-04.2,NIST-AIRMF,GOVERN 2.1,equivalent
+SCF,GOV-05,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,GOV-05,NIST-AIRMF,MAP 5.2,equivalent
+SCF,GOV-05,NIST-AIRMF,MEASURE 1.0,equivalent
+SCF,GOV-05,NIST-AIRMF,MEASURE 1.1,equivalent
+SCF,GOV-05,NIST-AIRMF,MEASURE 1.2,equivalent
+SCF,GOV-05,NIST-AIRMF,MEASURE 4.0,equivalent
+SCF,GOV-05,NIST-AIRMF,MEASURE 4.3,equivalent
+SCF,GOV-05.1,NIST-AIRMF,MEASURE 4.1,equivalent
+SCF,GOV-05.1,NIST-AIRMF,MEASURE 4.3,equivalent
+SCF,GOV-05.2,NIST-AIRMF,MEASURE 4.1,equivalent
+SCF,GOV-05.2,NIST-AIRMF,MEASURE 4.3,equivalent
+SCF,GOV-08,NIST-AIRMF,MAP 1.3,equivalent
+SCF,GOV-14,NIST-AIRMF,GOVERN 4.0,equivalent
+SCF,GOV-15,NIST-AIRMF,GOVERN 4.0,equivalent
+SCF,AAT-01,NIST-AIRMF,GOVERN 1.0,equivalent
+SCF,AAT-01,NIST-AIRMF,GOVERN 2.1,equivalent
+SCF,AAT-01,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,AAT-01,NIST-AIRMF,MAP 3.5,equivalent
+SCF,AAT-01,NIST-AIRMF,MAP 5.2,equivalent
+SCF,AAT-01.1,NIST-AIRMF,GOVERN 1.1,equivalent
+SCF,AAT-01.2,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,AAT-01.2,NIST-AIRMF,MEASURE 2.5,equivalent
+SCF,AAT-01.3,NIST-AIRMF,MANAGE 2.2,equivalent
+SCF,AAT-02,NIST-AIRMF,GOVERN 1.6,equivalent
+SCF,AAT-02.1,NIST-AIRMF,MAP 4.1,equivalent
+SCF,AAT-02.2,NIST-AIRMF,MAP 4.2,equivalent
+SCF,AAT-03,NIST-AIRMF,MAP 1.0,equivalent
+SCF,AAT-03,NIST-AIRMF,MAP 1.1,equivalent
+SCF,AAT-03,NIST-AIRMF,MAP 1.4,equivalent
+SCF,AAT-03,NIST-AIRMF,MAP 3.0,equivalent
+SCF,AAT-03.1,NIST-AIRMF,MAP 1.3,equivalent
+SCF,AAT-03.1,NIST-AIRMF,MAP 1.4,equivalent
+SCF,AAT-03.1,NIST-AIRMF,MAP 3.0,equivalent
+SCF,AAT-04,NIST-AIRMF,MAP 1.1,equivalent
+SCF,AAT-04,NIST-AIRMF,MAP 3.0,equivalent
+SCF,AAT-04,NIST-AIRMF,MAP 3.1,equivalent
+SCF,AAT-04,NIST-AIRMF,MAP 3.2,equivalent
+SCF,AAT-04.1,NIST-AIRMF,MAP 3.1,equivalent
+SCF,AAT-04.2,NIST-AIRMF,MAP 3.2,equivalent
+SCF,AAT-04.3,NIST-AIRMF,MAP 3.3,equivalent
+SCF,AAT-04.4,NIST-AIRMF,MAP 4.0,equivalent
+SCF,AAT-06,NIST-AIRMF,GOVERN 3.0,equivalent
+SCF,AAT-07,NIST-AIRMF,GOVERN 3.1,equivalent
+SCF,AAT-07.1,NIST-AIRMF,MAP 5.0,equivalent
+SCF,AAT-07.2,NIST-AIRMF,MAP 5.1,equivalent
+SCF,AAT-07.3,NIST-AIRMF,MANAGE 2.0,equivalent
+SCF,AAT-08,NIST-AIRMF,GOVERN 2.1,equivalent
+SCF,AAT-08,NIST-AIRMF,GOVERN 3.2,equivalent
+SCF,AAT-08,NIST-AIRMF,MAP 1.2,equivalent
+SCF,AAT-09,NIST-AIRMF,GOVERN 4.2,equivalent
+SCF,AAT-10,NIST-AIRMF,GOVERN 4.3,equivalent
+SCF,AAT-10,NIST-AIRMF,MEASURE 2.2,equivalent
+SCF,AAT-10.1,NIST-AIRMF,MEASURE 2.0,equivalent
+SCF,AAT-10.2,NIST-AIRMF,MAP 2.3,equivalent
+SCF,AAT-10.2,NIST-AIRMF,MEASURE 2.1,equivalent
+SCF,AAT-10.3,NIST-AIRMF,MEASURE 2.0,equivalent
+SCF,AAT-10.4,NIST-AIRMF,MEASURE 2.6,equivalent
+SCF,AAT-10.5,NIST-AIRMF,MEASURE 2.7,equivalent
+SCF,AAT-10.6,NIST-AIRMF,MEASURE 2.8,equivalent
+SCF,AAT-10.7,NIST-AIRMF,MEASURE 2.10,equivalent
+SCF,AAT-10.8,NIST-AIRMF,MEASURE 2.11,equivalent
+SCF,AAT-10.9,NIST-AIRMF,MEASURE 2.5,equivalent
+SCF,AAT-10.9,NIST-AIRMF,MEASURE 2.9,equivalent
+SCF,AAT-10.10,NIST-AIRMF,MEASURE 2.13,equivalent
+SCF,AAT-10.10,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,AAT-10.11,NIST-AIRMF,MEASURE 2.13,equivalent
+SCF,AAT-10.12,NIST-AIRMF,MEASURE 2.3,equivalent
+SCF,AAT-10.13,NIST-AIRMF,MEASURE 2.4,equivalent
+SCF,AAT-10.13,NIST-AIRMF,MEASURE 2.6,equivalent
+SCF,AAT-10.13,NIST-AIRMF,MANAGE 4.1,equivalent
+SCF,AAT-10.14,NIST-AIRMF,MANAGE 4.2,equivalent
+SCF,AAT-11,NIST-AIRMF,GOVERN 5.0,equivalent
+SCF,AAT-11,NIST-AIRMF,MAP 5.2,equivalent
+SCF,AAT-11.1,NIST-AIRMF,GOVERN 5.1,equivalent
+SCF,AAT-11.1,NIST-AIRMF,GOVERN 5.2,equivalent
+SCF,AAT-11.1,NIST-AIRMF,MANAGE 4.1,equivalent
+SCF,AAT-11.2,NIST-AIRMF,MEASURE 1.3,equivalent
+SCF,AAT-11.2,NIST-AIRMF,MEASURE 2.6,equivalent
+SCF,AAT-11.2,NIST-AIRMF,MANAGE 4.1,equivalent
+SCF,AAT-11.3,NIST-AIRMF,MEASURE 3.3,equivalent
+SCF,AAT-11.3,NIST-AIRMF,MANAGE 4.1,equivalent
+SCF,AAT-11.4,NIST-AIRMF,MANAGE 4.3,equivalent
+SCF,AAT-12,NIST-AIRMF,GOVERN 6.1,equivalent
+SCF,AAT-13,NIST-AIRMF,MAP 1.2,equivalent
+SCF,AAT-13.1,NIST-AIRMF,MAP 3.4,equivalent
+SCF,AAT-14,NIST-AIRMF,MAP 1.6,equivalent
+SCF,AAT-14.1,NIST-AIRMF,MAP 2.1,equivalent
+SCF,AAT-14.2,NIST-AIRMF,MAP 2.2,equivalent
+SCF,AAT-15,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,AAT-15.1,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,AAT-15.1,NIST-AIRMF,MANAGE 1.2,equivalent
+SCF,AAT-15.1,NIST-AIRMF,MANAGE 1.4,equivalent
+SCF,AAT-15.2,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,AAT-15.2,NIST-AIRMF,MANAGE 1.2,equivalent
+SCF,AAT-15.2,NIST-AIRMF,MANAGE 2.4,equivalent
+SCF,AAT-16,NIST-AIRMF,MEASURE 2.4,equivalent
+SCF,AAT-16.1,NIST-AIRMF,MEASURE 4.1,equivalent
+SCF,AAT-16.2,NIST-AIRMF,MEASURE 1.0,equivalent
+SCF,AAT-16.2,NIST-AIRMF,MEASURE 1.1,equivalent
+SCF,AAT-16.2,NIST-AIRMF,MEASURE 1.2,equivalent
+SCF,AAT-16.2,NIST-AIRMF,MEASURE 3.0,equivalent
+SCF,AAT-16.3,NIST-AIRMF,MEASURE 1.1,equivalent
+SCF,AAT-16.4,NIST-AIRMF,MEASURE 4.0,equivalent
+SCF,AAT-16.5,NIST-AIRMF,MEASURE 4.2,equivalent
+SCF,AAT-16.6,NIST-AIRMF,MEASURE 4.3,equivalent
+SCF,AAT-16.7,NIST-AIRMF,MANAGE 3.2,equivalent
+SCF,AAT-17,NIST-AIRMF,MEASURE 2.2,equivalent
+SCF,AAT-17,NIST-AIRMF,MEASURE 3.1,equivalent
+SCF,AAT-17.1,NIST-AIRMF,MEASURE 2.2,equivalent
+SCF,AAT-17.2,NIST-AIRMF,MEASURE 2.12,equivalent
+SCF,AAT-17.3,NIST-AIRMF,MANAGE 2.3,equivalent
+SCF,AAT-18,NIST-AIRMF,MEASURE 3.2,equivalent
+SCF,AAT-18.1,NIST-AIRMF,MANAGE 1.0,equivalent
+SCF,AST-01,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,AST-01.2,NIST-AIRMF,GOVERN 1.1,equivalent
+SCF,AST-01.2,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,AST-01.2,NIST-AIRMF,GOVERN 5.0,equivalent
+SCF,AST-02,NIST-AIRMF,GOVERN 1.6,equivalent
+SCF,AST-09,NIST-AIRMF,GOVERN 1.7,equivalent
+SCF,AST-30,NIST-AIRMF,GOVERN 1.7,equivalent
+SCF,AST-31,NIST-AIRMF,MAP 2.0,equivalent
+SCF,AST-31.1,NIST-AIRMF,MAP 2.0,equivalent
+SCF,BCD-01,NIST-AIRMF,GOVERN 6.2,equivalent
+SCF,BCD-02,NIST-AIRMF,GOVERN 1.6,equivalent
+SCF,BCD-16,NIST-AIRMF,GOVERN 6.2,equivalent
+SCF,CHG-05,NIST-AIRMF,GOVERN 5.0,equivalent
+SCF,CPL-01,NIST-AIRMF,GOVERN 1.1,equivalent
+SCF,CPL-01.2,NIST-AIRMF,GOVERN 1.1,equivalent
+SCF,CPL-01.2,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,CPL-01.2,NIST-AIRMF,MAP 3.3,equivalent
+SCF,CPL-02,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,CPL-03,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,CPL-04,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,DCH-02,NIST-AIRMF,GOVERN 1.6,equivalent
+SCF,HRS-01,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,HRS-03,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,HRS-03,NIST-AIRMF,GOVERN 2.1,equivalent
+SCF,HRS-03.1,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,HRS-03.2,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,HRS-03.2,NIST-AIRMF,MAP 1.2,equivalent
+SCF,HRS-03.2,NIST-AIRMF,MAP 3.4,equivalent
+SCF,HRS-04.1,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,HRS-04.1,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,HRS-05.1,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,HRS-05.1,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,HRS-05.4,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,HRS-05.4,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,IRO-01,NIST-AIRMF,GOVERN 6.2,equivalent
+SCF,IRO-01,NIST-AIRMF,MANAGE 2.3,equivalent
+SCF,IRO-01,NIST-AIRMF,MANAGE 2.4,equivalent
+SCF,IRO-02,NIST-AIRMF,GOVERN 6.2,equivalent
+SCF,IRO-02,NIST-AIRMF,MANAGE 2.3,equivalent
+SCF,IRO-02,NIST-AIRMF,MANAGE 2.4,equivalent
+SCF,IRO-02.4,NIST-AIRMF,GOVERN 6.2,equivalent
+SCF,IRO-04,NIST-AIRMF,GOVERN 6.2,equivalent
+SCF,IRO-04,NIST-AIRMF,MANAGE 4.0,equivalent
+SCF,IRO-10,NIST-AIRMF,MANAGE 4.3,equivalent
+SCF,IAO-01,NIST-AIRMF,GOVERN 4.3,equivalent
+SCF,IAO-01,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,IAO-02,NIST-AIRMF,MEASURE 2.0,equivalent
+SCF,IAO-02.2,NIST-AIRMF,MAP 2.3,equivalent
+SCF,IAO-02.2,NIST-AIRMF,MEASURE 3.1,equivalent
+SCF,IAO-02.2,NIST-AIRMF,MEASURE 3.2,equivalent
+SCF,IAO-03,NIST-AIRMF,MANAGE 4.0,equivalent
+SCF,IAO-05,NIST-AIRMF,MEASURE 3.0,equivalent
+SCF,IAO-05,NIST-AIRMF,MEASURE 3.1,equivalent
+SCF,IAO-05,NIST-AIRMF,MEASURE 3.2,equivalent
+SCF,IAO-05,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,IAO-05,NIST-AIRMF,MANAGE 1.2,equivalent
+SCF,IAO-05,NIST-AIRMF,MANAGE 1.3,equivalent
+SCF,IAO-05,NIST-AIRMF,MANAGE 1.4,equivalent
+SCF,IAO-05,NIST-AIRMF,MANAGE 3.1,equivalent
+SCF,IAO-05,NIST-AIRMF,MANAGE 4.0,equivalent
+SCF,IAO-06,NIST-AIRMF,MEASURE 2.0,equivalent
+SCF,IAO-07,NIST-AIRMF,MANAGE 1.1,equivalent
+SCF,PRI-01,NIST-AIRMF,MAP 1.6,equivalent
+SCF,PRI-05.4,NIST-AIRMF,MAP 1.6,equivalent
+SCF,PRM-01,NIST-AIRMF,MANAGE 2.1,equivalent
+SCF,PRM-01,NIST-AIRMF,MANAGE 2.2,equivalent
+SCF,PRM-01.1,NIST-AIRMF,MAP 1.3,equivalent
+SCF,PRM-02,NIST-AIRMF,MANAGE 2.1,equivalent
+SCF,PRM-03,NIST-AIRMF,MANAGE 2.1,equivalent
+SCF,PRM-05,NIST-AIRMF,MAP 1.6,equivalent
+SCF,PRM-06,NIST-AIRMF,MAP 1.0,equivalent
+SCF,PRM-06,NIST-AIRMF,MAP 1.1,equivalent
+SCF,PRM-06,NIST-AIRMF,MAP 1.4,equivalent
+SCF,PRM-06,NIST-AIRMF,MAP 2.1,equivalent
+SCF,PRM-07,NIST-AIRMF,GOVERN 1.7,equivalent
+SCF,PRM-07,NIST-AIRMF,MANAGE 2.2,equivalent
+SCF,RSK-01,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,RSK-01,NIST-AIRMF,GOVERN 1.4,equivalent
+SCF,RSK-01,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,RSK-01,NIST-AIRMF,MANAGE 1.0,equivalent
+SCF,RSK-01.1,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,RSK-01.1,NIST-AIRMF,GOVERN 1.4,equivalent
+SCF,RSK-01.2,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,RSK-01.2,NIST-AIRMF,GOVERN 1.4,equivalent
+SCF,RSK-01.2,NIST-AIRMF,MANAGE 2.1,equivalent
+SCF,RSK-01.3,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,RSK-01.3,NIST-AIRMF,MAP 1.5,equivalent
+SCF,RSK-01.3,NIST-AIRMF,MAP 3.2,equivalent
+SCF,RSK-02.1,NIST-AIRMF,MAP 5.1,equivalent
+SCF,RSK-02.1,NIST-AIRMF,MANAGE 1.2,equivalent
+SCF,RSK-03,NIST-AIRMF,MANAGE 1.0,equivalent
+SCF,RSK-03,NIST-AIRMF,MANAGE 2.3,equivalent
+SCF,RSK-04,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,RSK-04,NIST-AIRMF,MANAGE 1.0,equivalent
+SCF,RSK-04.1,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,RSK-04.1,NIST-AIRMF,MEASURE 3.0,equivalent
+SCF,RSK-04.1,NIST-AIRMF,MEASURE 3.1,equivalent
+SCF,RSK-04.1,NIST-AIRMF,MEASURE 3.2,equivalent
+SCF,RSK-04.1,NIST-AIRMF,MANAGE 1.4,equivalent
+SCF,RSK-05,NIST-AIRMF,MANAGE 1.2,equivalent
+SCF,RSK-06,NIST-AIRMF,MANAGE 1.2,equivalent
+SCF,RSK-06,NIST-AIRMF,MANAGE 4.0,equivalent
+SCF,RSK-06.1,NIST-AIRMF,MANAGE 1.3,equivalent
+SCF,RSK-06.1,NIST-AIRMF,MANAGE 2.3,equivalent
+SCF,RSK-06.1,NIST-AIRMF,MANAGE 2.4,equivalent
+SCF,RSK-06.1,NIST-AIRMF,MANAGE 4.0,equivalent
+SCF,RSK-06.2,NIST-AIRMF,MANAGE 2.1,equivalent
+SCF,RSK-08,NIST-AIRMF,GOVERN 1.5,equivalent
+SCF,RSK-08,NIST-AIRMF,MAP 1.1,equivalent
+SCF,RSK-08,NIST-AIRMF,MAP 5.1,equivalent
+SCF,RSK-09,NIST-AIRMF,MANAGE 3.0,equivalent
+SCF,RSK-09.1,NIST-AIRMF,MANAGE 3.1,equivalent
+SCF,RSK-09.2,NIST-AIRMF,GOVERN 6.0,equivalent
+SCF,RSK-09.2,NIST-AIRMF,MANAGE 3.0,equivalent
+SCF,RSK-09.2,NIST-AIRMF,MANAGE 3.1,equivalent
+SCF,RSK-10,NIST-AIRMF,MAP 1.1,equivalent
+SCF,RSK-10,NIST-AIRMF,MEASURE 2.10,equivalent
+SCF,RSK-12,NIST-AIRMF,GOVERN 4.0,equivalent
+SCF,SEA-01,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,SEA-01.1,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,SEA-01.2,NIST-AIRMF,MEASURE 2.7,equivalent
+SCF,SEA-02.3,NIST-AIRMF,GOVERN 1.7,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 1.4,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 3.2,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 5.1,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 6.0,equivalent
+SCF,OPS-01,NIST-AIRMF,GOVERN 6.1,equivalent
+SCF,OPS-01,NIST-AIRMF,MAP 3.5,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 1.0,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 1.3,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 1.4,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 3.2,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 5.1,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 6.0,equivalent
+SCF,OPS-01.1,NIST-AIRMF,GOVERN 6.1,equivalent
+SCF,OPS-01.1,NIST-AIRMF,MAP 3.5,equivalent
+SCF,SAT-01,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,SAT-01,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,SAT-03,NIST-AIRMF,GOVERN 2.0,equivalent
+SCF,SAT-03,NIST-AIRMF,GOVERN 2.2,equivalent
+SCF,SAT-03.5,NIST-AIRMF,GOVERN 2.2,equivalent
+SCF,SAT-03.6,NIST-AIRMF,GOVERN 2.2,equivalent
+SCF,TDA-01,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,TDA-01,NIST-AIRMF,GOVERN 3.1,equivalent
+SCF,TDA-01,NIST-AIRMF,GOVERN 4.2,equivalent
+SCF,TDA-01,NIST-AIRMF,MANAGE 2.0,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 1.2,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 3.1,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 4.2,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 5.1,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 5.2,equivalent
+SCF,TDA-01.1,NIST-AIRMF,GOVERN 6.0,equivalent
+SCF,TDA-01.1,NIST-AIRMF,MAP 2.1,equivalent
+SCF,TDA-01.1,NIST-AIRMF,MANAGE 2.0,equivalent
+SCF,TDA-01.1,NIST-AIRMF,MANAGE 2.2,equivalent
+SCF,TDA-02.3,NIST-AIRMF,GOVERN 4.1,equivalent
+SCF,TDA-02.3,NIST-AIRMF,GOVERN 4.2,equivalent
+SCF,TDA-04,NIST-AIRMF,GOVERN 4.2,equivalent
+SCF,TDA-05,NIST-AIRMF,GOVERN 4.2,equivalent
+SCF,TDA-17,NIST-AIRMF,GOVERN 1.7,equivalent
+SCF,TPM-01,NIST-AIRMF,MANAGE 3.0,equivalent
+SCF,TPM-04.1,NIST-AIRMF,MANAGE 3.1,equivalent
+SCF,TPM-08,NIST-AIRMF,MANAGE 3.0,equivalent
+SCF,TPM-08,NIST-AIRMF,MANAGE 3.1,equivalent
+SCF,GOV-01,ISO42001,7.5.1,equivalent
+SCF,GOV-01,ISO42001,7.5.1(a),equivalent
+SCF,GOV-01,ISO42001,7.5.1(b),equivalent
+SCF,GOV-01,ISO42001,7.5.2,equivalent
+SCF,GOV-01,ISO42001,7.5.3,equivalent
+SCF,GOV-01,ISO42001,7.5.3(a),equivalent
+SCF,GOV-01,ISO42001,7.5.3(b),equivalent
+SCF,GOV-01.1,ISO42001,9.2.2(c),equivalent
+SCF,GOV-01.1,ISO42001,9.3.1,equivalent
+SCF,GOV-01.1,ISO42001,9.3.2,equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(a),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(b),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(c),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(d),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(d)(1),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(d)(2),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(d)(3),equivalent
+SCF,GOV-01.1,ISO42001,9.3.2(e),equivalent
+SCF,GOV-01.2,ISO42001,5.1,equivalent
+SCF,GOV-01.2,ISO42001,9.3.3,equivalent
+SCF,GOV-02,ISO42001,5.1,equivalent
+SCF,GOV-02,ISO42001,5.2,equivalent
+SCF,GOV-02,ISO42001,5.2(a),equivalent
+SCF,GOV-02,ISO42001,5.2(b),equivalent
+SCF,GOV-02,ISO42001,5.2(c),equivalent
+SCF,GOV-02,ISO42001,5.2(d),equivalent
+SCF,GOV-02,ISO42001,7.5.1,equivalent
+SCF,GOV-02,ISO42001,7.5.1(a),equivalent
+SCF,GOV-02,ISO42001,7.5.1(b),equivalent
+SCF,GOV-02,ISO42001,7.5.2,equivalent
+SCF,GOV-02,ISO42001,7.5.3,equivalent
+SCF,GOV-02,ISO42001,7.5.3(a),equivalent
+SCF,GOV-02,ISO42001,7.5.3(b),equivalent
+SCF,GOV-02,ISO42001,A.2,equivalent
+SCF,GOV-02,ISO42001,A.2.2,equivalent
+SCF,GOV-02,ISO42001,A.2.3,equivalent
+SCF,GOV-03,ISO42001,7.5.2,equivalent
+SCF,GOV-03,ISO42001,A.2.4,equivalent
+SCF,GOV-04,ISO42001,5.3,equivalent
+SCF,GOV-04,ISO42001,5.3(a),equivalent
+SCF,GOV-04,ISO42001,5.3(b),equivalent
+SCF,GOV-04,ISO42001,A.3.2,equivalent
+SCF,GOV-04.1,ISO42001,5.1,equivalent
+SCF,GOV-04.1,ISO42001,A.3,equivalent
+SCF,GOV-04.2,ISO42001,5.1,equivalent
+SCF,GOV-04.2,ISO42001,A.3,equivalent
+SCF,GOV-05,ISO42001,5.1,equivalent
+SCF,GOV-05,ISO42001,9.3.2(d),equivalent
+SCF,GOV-05,ISO42001,9.3.2(d)(1),equivalent
+SCF,GOV-05,ISO42001,9.3.2(d)(2),equivalent
+SCF,GOV-05,ISO42001,9.3.2(d)(3),equivalent
+SCF,GOV-08,ISO42001,6.2,equivalent
+SCF,GOV-09,ISO42001,5.1,equivalent
+SCF,GOV-09,ISO42001,6.2,equivalent
+SCF,GOV-09,ISO42001,8.1,equivalent
+SCF,GOV-11,ISO42001,6.2,equivalent
+SCF,GOV-14,ISO42001,5.1,equivalent
+SCF,GOV-15,ISO42001,5.1,equivalent
+SCF,GOV-15,ISO42001,8.1,equivalent
+SCF,GOV-15.1,ISO42001,8.1,equivalent
+SCF,GOV-15.2,ISO42001,8.1,equivalent
+SCF,GOV-15.3,ISO42001,8.1,equivalent
+SCF,GOV-15.5,ISO42001,8.1,equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(c),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(d),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(d)(1),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(d)(2),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(d)(3),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(e),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(e)(1),equivalent
+SCF,GOV-16.1,ISO42001,6.1.2(e)(2),equivalent
+SCF,AAT-01,ISO42001,4.1,equivalent
+SCF,AAT-01,ISO42001,4.2,equivalent
+SCF,AAT-01,ISO42001,4.4,equivalent
+SCF,AAT-01,ISO42001,5.1,equivalent
+SCF,AAT-01,ISO42001,7.4,equivalent
+SCF,AAT-01,ISO42001,8.1,equivalent
+SCF,AAT-01,ISO42001,8.2,equivalent
+SCF,AAT-01,ISO42001,A.2.2,equivalent
+SCF,AAT-01,ISO42001,A.4,equivalent
+SCF,AAT-01,ISO42001,A.6.2.2,equivalent
+SCF,AAT-01.1,ISO42001,4.1,equivalent
+SCF,AAT-01.1,ISO42001,4.2,equivalent
+SCF,AAT-01.1,ISO42001,8.1,equivalent
+SCF,AAT-01.1,ISO42001,A.5,equivalent
+SCF,AAT-01.1,ISO42001,A.5.3,equivalent
+SCF,AAT-01.1,ISO42001,A.5.4,equivalent
+SCF,AAT-01.1,ISO42001,A.5.5,equivalent
+SCF,AAT-01.1,ISO42001,A.10.4,equivalent
+SCF,AAT-01.2,ISO42001,7.1,equivalent
+SCF,AAT-01.2,ISO42001,A.4,equivalent
+SCF,AAT-01.2,ISO42001,A.6.1.2,equivalent
+SCF,AAT-01.2,ISO42001,A.7,equivalent
+SCF,AAT-01.3,ISO42001,4.1,equivalent
+SCF,AAT-02,ISO42001,8.2,equivalent
+SCF,AAT-02,ISO42001,A.4.4,equivalent
+SCF,AAT-02,ISO42001,A.4.5,equivalent
+SCF,AAT-02.1,ISO42001,6.1.1,equivalent
+SCF,AAT-02.1,ISO42001,8.2,equivalent
+SCF,AAT-02.1,ISO42001,A.5.3,equivalent
+SCF,AAT-02.1,ISO42001,A.5.4,equivalent
+SCF,AAT-02.1,ISO42001,A.5.5,equivalent
+SCF,AAT-02.2,ISO42001,5.1,equivalent
+SCF,AAT-02.2,ISO42001,8.1,equivalent
+SCF,AAT-02.2,ISO42001,A.6.2.2,equivalent
+SCF,AAT-03,ISO42001,4.1,equivalent
+SCF,AAT-03,ISO42001,A.10.4,equivalent
+SCF,AAT-03.1,ISO42001,4.1,equivalent
+SCF,AAT-03.1,ISO42001,4.2,equivalent
+SCF,AAT-03.1,ISO42001,A.6.2.3,equivalent
+SCF,AAT-04,ISO42001,5.1,equivalent
+SCF,AAT-04,ISO42001,6.2,equivalent
+SCF,AAT-04,ISO42001,6.2(a),equivalent
+SCF,AAT-04,ISO42001,6.2(b),equivalent
+SCF,AAT-04,ISO42001,6.2(c),equivalent
+SCF,AAT-04,ISO42001,6.2(d),equivalent
+SCF,AAT-04,ISO42001,6.2(e),equivalent
+SCF,AAT-04,ISO42001,6.2(f),equivalent
+SCF,AAT-04,ISO42001,6.2(g),equivalent
+SCF,AAT-04,ISO42001,A.6.2.3,equivalent
+SCF,AAT-04,ISO42001,A.9,equivalent
+SCF,AAT-04,ISO42001,A.9.2,equivalent
+SCF,AAT-04,ISO42001,A.9.3,equivalent
+SCF,AAT-04,ISO42001,A.9.4,equivalent
+SCF,AAT-04,ISO42001,A.10.4,equivalent
+SCF,AAT-04.2,ISO42001,A.5.3,equivalent
+SCF,AAT-04.2,ISO42001,A.5.4,equivalent
+SCF,AAT-04.2,ISO42001,A.5.5,equivalent
+SCF,AAT-04.3,ISO42001,4.3,equivalent
+SCF,AAT-04.3,ISO42001,9.2.2(a),equivalent
+SCF,AAT-04.3,ISO42001,A.4.4,equivalent
+SCF,AAT-04.3,ISO42001,A.4.5,equivalent
+SCF,AAT-05,ISO42001,7.2,equivalent
+SCF,AAT-07,ISO42001,6.1.1,equivalent
+SCF,AAT-07,ISO42001,6.1.2,equivalent
+SCF,AAT-07,ISO42001,6.1.2(a),equivalent
+SCF,AAT-07,ISO42001,6.1.2(b),equivalent
+SCF,AAT-07,ISO42001,6.1.2(c),equivalent
+SCF,AAT-07,ISO42001,6.1.2(d),equivalent
+SCF,AAT-07,ISO42001,6.1.2(d)(1),equivalent
+SCF,AAT-07,ISO42001,6.1.2(d)(2),equivalent
+SCF,AAT-07,ISO42001,6.1.2(d)(3),equivalent
+SCF,AAT-07,ISO42001,6.1.2(e),equivalent
+SCF,AAT-07,ISO42001,6.1.2(e)(1),equivalent
+SCF,AAT-07,ISO42001,6.1.2(e)(2),equivalent
+SCF,AAT-07,ISO42001,6.1.3,equivalent
+SCF,AAT-07,ISO42001,6.1.3(a),equivalent
+SCF,AAT-07,ISO42001,6.1.3(b),equivalent
+SCF,AAT-07,ISO42001,6.1.3(c),equivalent
+SCF,AAT-07,ISO42001,6.1.3(d),equivalent
+SCF,AAT-07,ISO42001,6.1.3(e),equivalent
+SCF,AAT-07,ISO42001,6.1.3(f),equivalent
+SCF,AAT-07,ISO42001,6.1.3(g),equivalent
+SCF,AAT-07,ISO42001,6.1.4,equivalent
+SCF,AAT-07,ISO42001,8.2,equivalent
+SCF,AAT-07.1,ISO42001,8.4,equivalent
+SCF,AAT-07.1,ISO42001,A.5.3,equivalent
+SCF,AAT-07.1,ISO42001,A.5.4,equivalent
+SCF,AAT-07.1,ISO42001,A.5.5,equivalent
+SCF,AAT-07.2,ISO42001,6.1.2,equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(a),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(b),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(c),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(d),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(d)(1),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(d)(2),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(d)(3),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(e),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(e)(1),equivalent
+SCF,AAT-07.2,ISO42001,6.1.2(e)(2),equivalent
+SCF,AAT-07.2,ISO42001,8.2,equivalent
+SCF,AAT-07.3,ISO42001,5.2(d),equivalent
+SCF,AAT-07.3,ISO42001,9.3.2(e),equivalent
+SCF,AAT-07.3,ISO42001,10.1,equivalent
+SCF,AAT-07.3,ISO42001,A.3.3,equivalent
+SCF,AAT-08,ISO42001,5.3,equivalent
+SCF,AAT-08,ISO42001,5.3(a),equivalent
+SCF,AAT-08,ISO42001,5.3(b),equivalent
+SCF,AAT-08,ISO42001,A.3.2,equivalent
+SCF,AAT-09,ISO42001,6.1.1,equivalent
+SCF,AAT-09,ISO42001,6.1.2,equivalent
+SCF,AAT-09,ISO42001,6.1.4,equivalent
+SCF,AAT-10,ISO42001,9.1,equivalent
+SCF,AAT-10,ISO42001,A.6.1.3,equivalent
+SCF,AAT-10,ISO42001,A.6.2.3,equivalent
+SCF,AAT-10,ISO42001,A.6.2.4,equivalent
+SCF,AAT-10,ISO42001,A.6.2.5,equivalent
+SCF,AAT-10.1,ISO42001,9.2.1,equivalent
+SCF,AAT-10.1,ISO42001,9.2.1(a),equivalent
+SCF,AAT-10.1,ISO42001,9.2.1(a)(1),equivalent
+SCF,AAT-10.1,ISO42001,9.2.1(a)(2),equivalent
+SCF,AAT-10.1,ISO42001,9.2.1(b),equivalent
+SCF,AAT-10.1,ISO42001,A.6.2.4,equivalent
+SCF,AAT-10.9,ISO42001,A.6.2.4,equivalent
+SCF,AAT-10.13,ISO42001,A.6.2.6,equivalent
+SCF,AAT-10.13,ISO42001,A.9.4,equivalent
+SCF,AAT-10.14,ISO42001,5.2(d),equivalent
+SCF,AAT-10.14,ISO42001,6.1.1,equivalent
+SCF,AAT-10.14,ISO42001,7.1,equivalent
+SCF,AAT-10.14,ISO42001,9.3.2(e),equivalent
+SCF,AAT-11,ISO42001,5.1,equivalent
+SCF,AAT-11,ISO42001,7.4,equivalent
+SCF,AAT-11,ISO42001,9.3.1,equivalent
+SCF,AAT-11,ISO42001,9.3.2,equivalent
+SCF,AAT-11,ISO42001,9.3.2(a),equivalent
+SCF,AAT-11,ISO42001,9.3.2(b),equivalent
+SCF,AAT-11,ISO42001,9.3.2(c),equivalent
+SCF,AAT-11,ISO42001,9.3.2(d),equivalent
+SCF,AAT-11,ISO42001,9.3.2(d)(1),equivalent
+SCF,AAT-11,ISO42001,9.3.2(d)(2),equivalent
+SCF,AAT-11,ISO42001,9.3.2(d)(3),equivalent
+SCF,AAT-11,ISO42001,9.3.2(e),equivalent
+SCF,AAT-11,ISO42001,A.3.3,equivalent
+SCF,AAT-11,ISO42001,A.8,equivalent
+SCF,AAT-11,ISO42001,A.8.2,equivalent
+SCF,AAT-11,ISO42001,A.8.3,equivalent
+SCF,AAT-11,ISO42001,A.8.4,equivalent
+SCF,AAT-11,ISO42001,A.8.5,equivalent
+SCF,AAT-11.1,ISO42001,9.3.2(c),equivalent
+SCF,AAT-11.1,ISO42001,A.3.3,equivalent
+SCF,AAT-11.2,ISO42001,5.1,equivalent
+SCF,AAT-11.2,ISO42001,9.2.1,equivalent
+SCF,AAT-11.2,ISO42001,9.2.1(a),equivalent
+SCF,AAT-11.2,ISO42001,9.2.1(a)(1),equivalent
+SCF,AAT-11.2,ISO42001,9.2.1(a)(2),equivalent
+SCF,AAT-11.2,ISO42001,9.2.1(b),equivalent
+SCF,AAT-11.2,ISO42001,A.3.3,equivalent
+SCF,AAT-11.3,ISO42001,A.3.3,equivalent
+SCF,AAT-11.4,ISO42001,A.8.3,equivalent
+SCF,AAT-11.4,ISO42001,A.8.4,equivalent
+SCF,AAT-12,ISO42001,A.6.1.3,equivalent
+SCF,AAT-12,ISO42001,A.6.2.3,equivalent
+SCF,AAT-12.1,ISO42001,A.4.3,equivalent
+SCF,AAT-12.1,ISO42001,A.6.1.3,equivalent
+SCF,AAT-12.1,ISO42001,A.6.2.3,equivalent
+SCF,AAT-12.1,ISO42001,A.7,equivalent
+SCF,AAT-12.1,ISO42001,A.7.2,equivalent
+SCF,AAT-12.1,ISO42001,A.7.3,equivalent
+SCF,AAT-12.1,ISO42001,A.7.4,equivalent
+SCF,AAT-12.1,ISO42001,A.7.5,equivalent
+SCF,AAT-12.1,ISO42001,A.7.6,equivalent
+SCF,AAT-13,ISO42001,A.4.6,equivalent
+SCF,AAT-13.1,ISO42001,5.1,equivalent
+SCF,AAT-13.1,ISO42001,7.2,equivalent
+SCF,AAT-13.1,ISO42001,A.4.6,equivalent
+SCF,AAT-14,ISO42001,4.1,equivalent
+SCF,AAT-14,ISO42001,5.1,equivalent
+SCF,AAT-14,ISO42001,A.5.4,equivalent
+SCF,AAT-14,ISO42001,A.5.5,equivalent
+SCF,AAT-14,ISO42001,A.6.2.2,equivalent
+SCF,AAT-14,ISO42001,A.6.2.3,equivalent
+SCF,AAT-14.1,ISO42001,A.6.1.3,equivalent
+SCF,AAT-14.1,ISO42001,A.6.2.3,equivalent
+SCF,AAT-14.1,ISO42001,A.6.2.5,equivalent
+SCF,AAT-14.2,ISO42001,A.6.1.3,equivalent
+SCF,AAT-14.2,ISO42001,A.6.2.3,equivalent
+SCF,AAT-15,ISO42001,5.1,equivalent
+SCF,AAT-15.1,ISO42001,6.1.2(c),equivalent
+SCF,AAT-15.2,ISO42001,5.3,equivalent
+SCF,AAT-16,ISO42001,A.6.2.6,equivalent
+SCF,AAT-16.3,ISO42001,6.1.2(c),equivalent
+SCF,AAT-17.2,ISO42001,4.1,equivalent
+SCF,AAT-17.3,ISO42001,6.1.2(c),equivalent
+SCF,AAT-17.3,ISO42001,10.2,equivalent
+SCF,AAT-17.3,ISO42001,10.2(a),equivalent
+SCF,AAT-17.3,ISO42001,10.2(a)(1),equivalent
+SCF,AAT-17.3,ISO42001,10.2(a)(2),equivalent
+SCF,AAT-17.3,ISO42001,10.2(b),equivalent
+SCF,AAT-17.3,ISO42001,10.2(b)(1),equivalent
+SCF,AAT-17.3,ISO42001,10.2(b)(2),equivalent
+SCF,AAT-17.3,ISO42001,10.2(b)(3),equivalent
+SCF,AAT-17.3,ISO42001,10.2(c),equivalent
+SCF,AAT-17.3,ISO42001,10.2(d),equivalent
+SCF,AAT-17.3,ISO42001,10.2(e),equivalent
+SCF,AAT-18.1,ISO42001,10.2,equivalent
+SCF,AAT-18.1,ISO42001,10.2(a),equivalent
+SCF,AAT-18.1,ISO42001,10.2(a)(1),equivalent
+SCF,AAT-18.1,ISO42001,10.2(a)(2),equivalent
+SCF,AAT-18.1,ISO42001,10.2(b),equivalent
+SCF,AAT-18.1,ISO42001,10.2(b)(1),equivalent
+SCF,AAT-18.1,ISO42001,10.2(b)(2),equivalent
+SCF,AAT-18.1,ISO42001,10.2(b)(3),equivalent
+SCF,AAT-18.1,ISO42001,10.2(c),equivalent
+SCF,AAT-18.1,ISO42001,10.2(d),equivalent
+SCF,AAT-18.1,ISO42001,10.2(e),equivalent
+SCF,AST-01.2,ISO42001,9.3.2(c),equivalent
+SCF,AST-01.2,ISO42001,A.4.6,equivalent
+SCF,AST-01.2,ISO42001,A.8,equivalent
+SCF,AST-01.2,ISO42001,A.8.2,equivalent
+SCF,AST-01.2,ISO42001,A.8.3,equivalent
+SCF,AST-01.2,ISO42001,A.8.4,equivalent
+SCF,AST-01.2,ISO42001,A.8.5,equivalent
+SCF,AST-03.2,ISO42001,A.7.5,equivalent
+SCF,AST-04.1,ISO42001,4.3,equivalent
+SCF,CHG-01,ISO42001,6.3,equivalent
+SCF,CHG-02,ISO42001,6.3,equivalent
+SCF,CHG-02.1,ISO42001,6.3,equivalent
+SCF,CHG-03,ISO42001,A.5.2,equivalent
+SCF,CHG-03,ISO42001,A.5.3,equivalent
+SCF,CHG-05,ISO42001,A.5.2,equivalent
+SCF,CHG-05,ISO42001,A.5.3,equivalent
+SCF,CPL-01,ISO42001,4.1,equivalent
+SCF,CPL-01.2,ISO42001,4.3,equivalent
+SCF,CPL-02.1,ISO42001,9.2.1,equivalent
+SCF,CPL-02.1,ISO42001,9.2.1(a),equivalent
+SCF,CPL-02.1,ISO42001,9.2.1(a)(1),equivalent
+SCF,CPL-02.1,ISO42001,9.2.1(a)(2),equivalent
+SCF,CPL-02.1,ISO42001,9.2.1(b),equivalent
+SCF,CPL-02.1,ISO42001,9.2.2,equivalent
+SCF,CPL-02.1,ISO42001,9.2.2(a),equivalent
+SCF,CPL-02.1,ISO42001,9.2.2(b),equivalent
+SCF,CPL-02.1,ISO42001,9.2.2(c),equivalent
+SCF,CPL-03.1,ISO42001,9.2.2(b),equivalent
+SCF,DCH-01,ISO42001,7.5.3,equivalent
+SCF,DCH-01,ISO42001,7.5.3(a),equivalent
+SCF,DCH-01,ISO42001,7.5.3(b),equivalent
+SCF,DCH-01.2,ISO42001,7.5.3,equivalent
+SCF,DCH-01.2,ISO42001,7.5.3(a),equivalent
+SCF,DCH-01.2,ISO42001,7.5.3(b),equivalent
+SCF,DCH-01.4,ISO42001,7.5.3,equivalent
+SCF,DCH-01.4,ISO42001,7.5.3(a),equivalent
+SCF,DCH-01.4,ISO42001,7.5.3(b),equivalent
+SCF,DCH-03.1,ISO42001,7.5.3,equivalent
+SCF,DCH-03.1,ISO42001,7.5.3(a),equivalent
+SCF,DCH-03.1,ISO42001,7.5.3(b),equivalent
+SCF,DCH-22,ISO42001,A.7,equivalent
+SCF,DCH-22,ISO42001,A.7.2,equivalent
+SCF,DCH-22,ISO42001,A.7.3,equivalent
+SCF,DCH-22,ISO42001,A.7.4,equivalent
+SCF,DCH-22,ISO42001,A.7.5,equivalent
+SCF,DCH-22,ISO42001,A.7.6,equivalent
+SCF,HRS-01,ISO42001,7.2,equivalent
+SCF,HRS-02,ISO42001,7.2,equivalent
+SCF,HRS-03,ISO42001,5.3,equivalent
+SCF,HRS-03,ISO42001,7.2,equivalent
+SCF,HRS-03,ISO42001,A.3.2,equivalent
+SCF,HRS-03.1,ISO42001,7.3,equivalent
+SCF,HRS-03.2,ISO42001,7.2,equivalent
+SCF,HRS-04,ISO42001,7.2,equivalent
+SCF,HRS-04.1,ISO42001,7.2,equivalent
+SCF,HRS-04.1,ISO42001,A.3.2,equivalent
+SCF,HRS-04.2,ISO42001,7.3,equivalent
+SCF,HRS-05,ISO42001,7.3,equivalent
+SCF,HRS-05.1,ISO42001,7.3,equivalent
+SCF,HRS-05.2,ISO42001,7.3,equivalent
+SCF,HRS-05.3,ISO42001,7.3,equivalent
+SCF,HRS-05.4,ISO42001,7.3,equivalent
+SCF,HRS-05.5,ISO42001,7.3,equivalent
+SCF,HRS-05.7,ISO42001,7.3,equivalent
+SCF,HRS-06,ISO42001,7.3,equivalent
+SCF,HRS-06.1,ISO42001,7.3,equivalent
+SCF,HRS-07,ISO42001,7.3,equivalent
+SCF,IRO-02,ISO42001,A.3.3,equivalent
+SCF,IRO-10,ISO42001,A.8.3,equivalent
+SCF,IRO-10,ISO42001,A.8.4,equivalent
+SCF,IAO-01,ISO42001,A.6.2.5,equivalent
+SCF,IAO-02,ISO42001,A.6.2.5,equivalent
+SCF,IAO-02.2,ISO42001,A.6.2.5,equivalent
+SCF,IAO-04,ISO42001,10.2,equivalent
+SCF,IAO-04,ISO42001,10.2(a),equivalent
+SCF,IAO-04,ISO42001,10.2(a)(1),equivalent
+SCF,IAO-04,ISO42001,10.2(a)(2),equivalent
+SCF,IAO-04,ISO42001,10.2(b),equivalent
+SCF,IAO-04,ISO42001,10.2(b)(1),equivalent
+SCF,IAO-04,ISO42001,10.2(b)(2),equivalent
+SCF,IAO-04,ISO42001,10.2(b)(3),equivalent
+SCF,IAO-04,ISO42001,10.2(c),equivalent
+SCF,IAO-04,ISO42001,10.2(d),equivalent
+SCF,IAO-04,ISO42001,10.2(e),equivalent
+SCF,IAO-05,ISO42001,9.3.2(a),equivalent
+SCF,IAO-05,ISO42001,9.3.2(b),equivalent
+SCF,IAO-05,ISO42001,10.2,equivalent
+SCF,IAO-05,ISO42001,10.2(a),equivalent
+SCF,IAO-05,ISO42001,10.2(a)(1),equivalent
+SCF,IAO-05,ISO42001,10.2(a)(2),equivalent
+SCF,IAO-05,ISO42001,10.2(b),equivalent
+SCF,IAO-05,ISO42001,10.2(b)(1),equivalent
+SCF,IAO-05,ISO42001,10.2(b)(2),equivalent
+SCF,IAO-05,ISO42001,10.2(b)(3),equivalent
+SCF,IAO-05,ISO42001,10.2(c),equivalent
+SCF,IAO-05,ISO42001,10.2(d),equivalent
+SCF,IAO-05,ISO42001,10.2(e),equivalent
+SCF,IAO-06,ISO42001,A.6.2.5,equivalent
+SCF,IAO-07,ISO42001,A.6.2.5,equivalent
+SCF,PRM-01,ISO42001,7.1,equivalent
+SCF,PRM-01,ISO42001,A.4.2,equivalent
+SCF,PRM-01,ISO42001,A.6.1,equivalent
+SCF,PRM-01.1,ISO42001,4.1,equivalent
+SCF,PRM-01.1,ISO42001,4.2,equivalent
+SCF,PRM-02,ISO42001,5.1,equivalent
+SCF,PRM-02,ISO42001,7.1,equivalent
+SCF,PRM-02,ISO42001,A.6.2.2,equivalent
+SCF,PRM-03,ISO42001,5.1,equivalent
+SCF,PRM-03,ISO42001,7.1,equivalent
+SCF,PRM-03,ISO42001,A.4.2,equivalent
+SCF,PRM-04,ISO42001,7.4,equivalent
+SCF,PRM-04,ISO42001,A.4.2,equivalent
+SCF,PRM-04,ISO42001,A.6.2.2,equivalent
+SCF,PRM-05,ISO42001,4.1,equivalent
+SCF,PRM-05,ISO42001,4.2,equivalent
+SCF,PRM-05,ISO42001,A.4.2,equivalent
+SCF,PRM-05,ISO42001,A.6.2.2,equivalent
+SCF,PRM-06,ISO42001,4.1,equivalent
+SCF,PRM-06,ISO42001,4.2,equivalent
+SCF,PRM-06,ISO42001,7.4,equivalent
+SCF,PRM-07,ISO42001,A.3.3,equivalent
+SCF,PRM-07,ISO42001,A.4.2,equivalent
+SCF,PRM-07,ISO42001,A.6.2.2,equivalent
+SCF,PRM-07,ISO42001,A.6.2.7,equivalent
+SCF,PRM-07,ISO42001,A.6.2.8,equivalent
+SCF,RSK-01,ISO42001,6.1.1,equivalent
+SCF,RSK-01,ISO42001,6.1.2,equivalent
+SCF,RSK-01,ISO42001,6.1.2(a),equivalent
+SCF,RSK-01,ISO42001,6.1.2(b),equivalent
+SCF,RSK-01,ISO42001,6.1.2(c),equivalent
+SCF,RSK-01,ISO42001,6.1.2(d),equivalent
+SCF,RSK-01,ISO42001,6.1.2(e),equivalent
+SCF,RSK-01,ISO42001,6.1.3,equivalent
+SCF,RSK-01,ISO42001,6.1.3(a),equivalent
+SCF,RSK-01,ISO42001,6.1.3(b),equivalent
+SCF,RSK-01,ISO42001,6.1.3(c),equivalent
+SCF,RSK-01,ISO42001,6.1.3(d),equivalent
+SCF,RSK-01,ISO42001,6.1.3(e),equivalent
+SCF,RSK-01,ISO42001,6.1.3(f),equivalent
+SCF,RSK-01,ISO42001,6.1.3(g),equivalent
+SCF,RSK-01,ISO42001,8.2,equivalent
+SCF,RSK-01,ISO42001,A.5,equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(d),equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(d)(1),equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(d)(2),equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(d)(3),equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(e),equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(e)(1),equivalent
+SCF,RSK-01.1,ISO42001,6.1.2(e)(2),equivalent
+SCF,RSK-01.1,ISO42001,6.1.4,equivalent
+SCF,RSK-01.1,ISO42001,8.4,equivalent
+SCF,RSK-01.2,ISO42001,5.1,equivalent
+SCF,RSK-02.1,ISO42001,6.1.2(e)(2),equivalent
+SCF,RSK-03,ISO42001,6.1.2(c),equivalent
+SCF,RSK-04,ISO42001,6.1.2,equivalent
+SCF,RSK-04,ISO42001,6.1.2(a),equivalent
+SCF,RSK-04,ISO42001,6.1.2(b),equivalent
+SCF,RSK-04,ISO42001,6.1.2(c),equivalent
+SCF,RSK-04,ISO42001,6.1.2(d),equivalent
+SCF,RSK-04,ISO42001,6.1.2(d)(1),equivalent
+SCF,RSK-04,ISO42001,6.1.2(d)(2),equivalent
+SCF,RSK-04,ISO42001,6.1.2(d)(3),equivalent
+SCF,RSK-04,ISO42001,6.1.2(e),equivalent
+SCF,RSK-04,ISO42001,6.1.2(e)(1),equivalent
+SCF,RSK-04,ISO42001,6.1.2(e)(2),equivalent
+SCF,RSK-04,ISO42001,8.2,equivalent
+SCF,RSK-04,ISO42001,A.5.3,equivalent
+SCF,RSK-04,ISO42001,A.5.4,equivalent
+SCF,RSK-04,ISO42001,A.5.5,equivalent
+SCF,RSK-04.1,ISO42001,6.1.2,equivalent
+SCF,RSK-04.1,ISO42001,9.3.2(a),equivalent
+SCF,RSK-04.1,ISO42001,9.3.2(b),equivalent
+SCF,RSK-05,ISO42001,6.1.2(e)(2),equivalent
+SCF,RSK-06,ISO42001,6.1.3,equivalent
+SCF,RSK-06,ISO42001,6.1.3(a),equivalent
+SCF,RSK-06,ISO42001,6.1.3(b),equivalent
+SCF,RSK-06,ISO42001,6.1.3(c),equivalent
+SCF,RSK-06,ISO42001,6.1.3(d),equivalent
+SCF,RSK-06,ISO42001,6.1.3(e),equivalent
+SCF,RSK-06,ISO42001,6.1.3(f),equivalent
+SCF,RSK-06,ISO42001,6.1.3(g),equivalent
+SCF,RSK-06,ISO42001,8.3,equivalent
+SCF,RSK-06,ISO42001,10.2,equivalent
+SCF,RSK-06,ISO42001,10.2(a),equivalent
+SCF,RSK-06,ISO42001,10.2(a)(1),equivalent
+SCF,RSK-06,ISO42001,10.2(a)(2),equivalent
+SCF,RSK-06,ISO42001,10.2(b),equivalent
+SCF,RSK-06,ISO42001,10.2(b)(1),equivalent
+SCF,RSK-06,ISO42001,10.2(b)(2),equivalent
+SCF,RSK-06,ISO42001,10.2(b)(3),equivalent
+SCF,RSK-06,ISO42001,10.2(c),equivalent
+SCF,RSK-06,ISO42001,10.2(d),equivalent
+SCF,RSK-06,ISO42001,10.2(e),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3,equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(a),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(b),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(c),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(d),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(e),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(f),equivalent
+SCF,RSK-06.1,ISO42001,6.1.3(g),equivalent
+SCF,RSK-06.1,ISO42001,8.3,equivalent
+SCF,RSK-06.2,ISO42001,6.1.3(b),equivalent
+SCF,RSK-06.2,ISO42001,6.1.3(c),equivalent
+SCF,RSK-06.2,ISO42001,6.1.3(d),equivalent
+SCF,RSK-06.2,ISO42001,8.3,equivalent
+SCF,RSK-08,ISO42001,6.1.4,equivalent
+SCF,RSK-08,ISO42001,8.4,equivalent
+SCF,RSK-08,ISO42001,A.5.3,equivalent
+SCF,RSK-08,ISO42001,A.5.4,equivalent
+SCF,RSK-08,ISO42001,A.5.5,equivalent
+SCF,RSK-09,ISO42001,A.10,equivalent
+SCF,RSK-09,ISO42001,A.10.2,equivalent
+SCF,RSK-09,ISO42001,A.10.3,equivalent
+SCF,RSK-10,ISO42001,6.1.4,equivalent
+SCF,RSK-10,ISO42001,8.4,equivalent
+SCF,RSK-10,ISO42001,A.5.3,equivalent
+SCF,RSK-10,ISO42001,A.5.4,equivalent
+SCF,RSK-10,ISO42001,A.5.5,equivalent
+SCF,SEA-02.1,ISO42001,3.0,equivalent
+SCF,OPS-01,ISO42001,7.5.3,equivalent
+SCF,OPS-01,ISO42001,7.5.3(a),equivalent
+SCF,OPS-01,ISO42001,7.5.3(b),equivalent
+SCF,OPS-01.1,ISO42001,7.5.1,equivalent
+SCF,OPS-01.1,ISO42001,7.5.1(a),equivalent
+SCF,OPS-01.1,ISO42001,7.5.1(b),equivalent
+SCF,OPS-01.1,ISO42001,7.5.2,equivalent
+SCF,OPS-01.1,ISO42001,7.5.3,equivalent
+SCF,OPS-01.1,ISO42001,7.5.3(a),equivalent
+SCF,OPS-01.1,ISO42001,7.5.3(b),equivalent
+SCF,OPS-01.1,ISO42001,A.6.2.7,equivalent
+SCF,OPS-01.1,ISO42001,A.6.2.8,equivalent
+SCF,OPS-03,ISO42001,A.6.2.7,equivalent
+SCF,OPS-03,ISO42001,A.6.2.8,equivalent
+SCF,OPS-03,ISO42001,A.9,equivalent
+SCF,OPS-03,ISO42001,A.9.2,equivalent
+SCF,OPS-03,ISO42001,A.9.3,equivalent
+SCF,OPS-03,ISO42001,A.9.4,equivalent
+SCF,OPS-05,ISO42001,A.6.2.7,equivalent
+SCF,OPS-05,ISO42001,A.6.2.8,equivalent
+SCF,TDA-01,ISO42001,A.6.1,equivalent
+SCF,TDA-01,ISO42001,A.6.1.3,equivalent
+SCF,TDA-01,ISO42001,A.6.2.3,equivalent
+SCF,TDA-01.1,ISO42001,A.6.2,equivalent
+SCF,TDA-01.1,ISO42001,A.6.2.2,equivalent
+SCF,TDA-01.1,ISO42001,A.6.2.7,equivalent
+SCF,TDA-01.1,ISO42001,A.6.2.8,equivalent
+SCF,TDA-02,ISO42001,A.6.2.2,equivalent
+SCF,TDA-02.3,ISO42001,A.6.1.3,equivalent
+SCF,TDA-02.3,ISO42001,A.6.2.3,equivalent
+SCF,TDA-04,ISO42001,A.6.2.7,equivalent
+SCF,TDA-04,ISO42001,A.6.2.8,equivalent
+SCF,TDA-06,ISO42001,A.6.1.3,equivalent
+SCF,TDA-06,ISO42001,A.6.2.3,equivalent
+SCF,TDA-15,ISO42001,10.2,equivalent
+SCF,TDA-15,ISO42001,10.2(a),equivalent
+SCF,TDA-15,ISO42001,10.2(a)(1),equivalent
+SCF,TDA-15,ISO42001,10.2(a)(2),equivalent
+SCF,TDA-15,ISO42001,10.2(b),equivalent
+SCF,TDA-15,ISO42001,10.2(b)(1),equivalent
+SCF,TDA-15,ISO42001,10.2(b)(2),equivalent
+SCF,TDA-15,ISO42001,10.2(b)(3),equivalent
+SCF,TDA-15,ISO42001,10.2(c),equivalent
+SCF,TDA-15,ISO42001,10.2(d),equivalent
+SCF,TDA-15,ISO42001,10.2(e),equivalent
+SCF,TPM-01,ISO42001,A.10,equivalent
+SCF,TPM-01,ISO42001,A.10.2,equivalent
+SCF,TPM-01,ISO42001,A.10.3,equivalent
+SCF,TPM-03,ISO42001,A.10,equivalent
+SCF,TPM-03,ISO42001,A.10.2,equivalent
+SCF,TPM-03,ISO42001,A.10.3,equivalent
+SCF,TPM-04,ISO42001,A.10,equivalent
+SCF,TPM-04,ISO42001,A.10.2,equivalent
+SCF,TPM-04,ISO42001,A.10.3,equivalent
+SCF,TPM-05,ISO42001,A.10.2,equivalent
+SCF,TPM-05,ISO42001,A.10.3,equivalent
+SCF,TPM-05.4,ISO42001,5.3,equivalent
+SCF,TPM-05.4,ISO42001,A.10,equivalent
+SCF,TPM-05.4,ISO42001,A.10.2,equivalent
+SCF,TPM-05.4,ISO42001,A.10.3,equivalent
+SCF,TPM-05.4,ISO42001,A.10.4,equivalent
+SCF,TPM-05.5,ISO42001,4.3,equivalent
+SCF,VPM-01.1,ISO42001,4.3,equivalent
+SCF,VPM-02,ISO42001,10.2,equivalent
+SCF,VPM-02,ISO42001,10.2(a),equivalent
+SCF,VPM-02,ISO42001,10.2(a)(1),equivalent
+SCF,VPM-02,ISO42001,10.2(a)(2),equivalent
+SCF,VPM-02,ISO42001,10.2(b),equivalent
+SCF,VPM-02,ISO42001,10.2(b)(1),equivalent
+SCF,VPM-02,ISO42001,10.2(b)(2),equivalent
+SCF,VPM-02,ISO42001,10.2(b)(3),equivalent
+SCF,VPM-02,ISO42001,10.2(c),equivalent
+SCF,VPM-02,ISO42001,10.2(d),equivalent
+SCF,VPM-02,ISO42001,10.2(e),equivalent
