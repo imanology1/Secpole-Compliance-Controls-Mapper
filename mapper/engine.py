@@ -15,7 +15,17 @@ class ControlMapper:
         
         self.index = defaultdict(list)
         for m in mappings:
+            # Forward mapping
             self.index[(m.source_framework, m.source_id)].append(m)
+            # Bidirectional/Reverse mapping
+            reverse_m = Mapping(
+                source_framework=m.target_framework,
+                source_id=m.target_id,
+                target_framework=m.source_framework,
+                target_id=m.source_id,
+                relationship=m.relationship
+            )
+            self.index[(m.target_framework, m.target_id)].append(reverse_m)
 
     def map_control(self, source_framework: str, source_id: str):
         """Find all mappings for a specific control."""

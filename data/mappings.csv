@@ -1,0 +1,5 @@
+source_framework,source_id,target_framework,target_id,relationship
+NIST800-53,AC-2,ISO27001,A.9.2.1,equivalent
+NIST800-53,AC-2,SOC2,CC6.3,related
+ISO27001,A.5.1.1,SOC2,CC1.1,equivalent
+NIST800-53,AU-2,ISO27001,A.12.4.1,partial
