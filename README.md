@@ -12,6 +12,10 @@ Compliance teams often duplicate effort when working with multiple frameworks. T
 - **HITRUST** (Healthcare Information Trust Alliance)
 - **HIPAA** (Health Insurance Portability and Accountability Act)
 
+**Recent Data Ingestions:**
+- Extracted and integrated over **1,500 base controls** and **4,000+ cross-mappings** directly from the **Secure Controls Framework (SCF)** (version 2026.2).
+- Ingested over **22,000 cross-compliance mappings** from the **Open Security Architecture (OSA)** project, heavily expanding mapping coverage for NIST 800-53 across dozens of other proprietary and open frameworks (PCI-DSS, CIS, COBIT, etc).
+
 By identifying equivalent and related controls across frameworks, organizations can:
 - Avoid duplicate assessments
 - Streamline multi-framework audits
@@ -119,6 +123,8 @@ Mapping data is derived from:
 - ISO/IEC 27001:2013 Annex A
 - AICPA SOC 2 Trust Service Criteria
 - NIST 800-53/ISO 27001 crosswalk documents
+- Open Security Architecture (OSA) Data Repository
+- Secure Controls Framework (SCF)
 - Industry compliance mapping resources
 
 ## Extending the Tool
