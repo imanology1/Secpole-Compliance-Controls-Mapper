@@ -3,16 +3,16 @@ from .models import Control, Mapping
 
 def load_controls(path: str, framework: str):
     """Load controls from CSV file."""
-    df = pd.read_csv(path)
+    df = pd.read_csv(path, dtype={"id": str})
     controls = []
     
     for _, row in df.iterrows():
         controls.append(
             Control(
                 framework=framework,
-                id=row["id"],
-                name=row["name"],
-                description=row.get("description", ""),
+                id=str(row["id"]),
+                name=str(row["name"]),
+                description=str(row.get("description", "")),
             )
         )
     

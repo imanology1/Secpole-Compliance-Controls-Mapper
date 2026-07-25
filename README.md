@@ -6,9 +6,11 @@ Cross-framework security control mapping tool that helps organizations reduce du
 
 Compliance teams often duplicate effort when working with multiple frameworks. This tool provides intelligent mapping between:
 
-- **NIST 800-53** (Federal security controls)
+- **NIST 800-53** & **NIST 800-171** & **NIST CSF** (Federal security controls and frameworks)
 - **ISO 27001** (International security standard)
-- **SOC 2** (Trust Service Criteria)
+- **SOC 2** (Trust Service Criteria, Types 1, 2, and 3)
+- **HITRUST** (Healthcare Information Trust Alliance)
+- **HIPAA** (Health Insurance Portability and Accountability Act)
 
 By identifying equivalent and related controls across frameworks, organizations can:
 - Avoid duplicate assessments
@@ -123,7 +125,7 @@ Mapping data is derived from:
 
 ### Add New Framework
 
-1. Create CSV file in `data/` directory:
+1. Create a CSV file in the `data/` directory. The file name must end with `_controls.csv`. The framework name will be derived from the filename (e.g., `newframework_controls.csv` -> `NEWFRAMEWORK`).
    ```csv
    id,name,description
    CONTROL-1,Control Name,Description...
@@ -134,7 +136,7 @@ Mapping data is derived from:
    NIST800-53,AC-2,NEWFRAMEWORK,CONTROL-1,equivalent
    ```
 
-3. Update loader in `mapper/loader.py` to include new framework
+*(The CLI now dynamically scans and loads all `*_controls.csv` files in the `data/` directory automatically, so no code changes are required to add new frameworks!)*
 
 ### Custom Queries
 

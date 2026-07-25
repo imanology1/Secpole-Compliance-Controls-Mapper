@@ -1,0 +1,23 @@
+id,name,description
+3.1.1,Access Control,"Limit system access to authorized users, processes, and devices"
+3.1.2,Access Control,Limit system access to authorized transactions and functions
+3.1.3,Access Control,Control CUI flow per approved authorizations
+3.1.4,Access Control,Separate duties to reduce risk of malevolent activity
+3.1.5,Access Control,Employ least privilege for security functions and privileged accounts
+3.1.6,Access Control,Use non-privileged accounts for nonsecurity functions
+3.1.7,Access Control,Prevent non-privileged users from executing privileged functions
+3.1.8,Access Control,Limit unsuccessful logon attempts
+3.1.9,Access Control,Provide privacy and security notices consistent with CUI rules
+3.1.10,Access Control,Use session lock with pattern-hiding displays
+3.1.11,Access Control,Terminate user sessions after defined conditions
+3.1.12,Access Control,Monitor and control remote access sessions
+3.1.13,Access Control,Encrypt remote access sessions
+3.1.14,Access Control,Route remote access via managed access control points
+3.1.15,Access Control,Authorize remote privileged commands
+3.1.16,Access Control,Authorize wireless access prior to connection
+3.1.17,Access Control,Protect wireless access using authentication and encryption
+3.1.18,Access Control,Control connection of mobile devices
+3.1.19,Access Control,Encrypt CUI on mobile devices
+3.1.20,Access Control,Verify and control/limit external system connections
+3.1.21,Access Control,Limit portable storage on external systems
+3.1.22,Access Control,Control CUI on publicly accessible systems
