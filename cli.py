@@ -1,4 +1,7 @@
 import argparse
+import json
+import csv
+import sys
 from tabulate import tabulate
 from mapper.loader import load_controls, load_mappings
 from mapper.engine import ControlMapper
@@ -50,11 +53,20 @@ def cmd_map_control(args):
             mapping.relationship,
         ])
 
-    print(tabulate(
-        rows, 
-        headers=["Source", "Target", "Target Name", "Relationship"], 
-        tablefmt="github"
-    ))
+    headers = ["Source", "Target", "Target Name", "Relationship"]
+    if args.format == "json":
+        json_data = [dict(zip(headers, row)) for row in rows]
+        print(json.dumps(json_data, indent=2))
+    elif args.format == "csv":
+        writer = csv.writer(sys.stdout)
+        writer.writerow(headers)
+        writer.writerows(rows)
+    else:
+        print(tabulate(
+            rows,
+            headers=headers,
+            tablefmt="github"
+        ))
 
 def cmd_map_framework(args):
     """Map entire framework to another framework."""
@@ -76,23 +88,39 @@ def cmd_map_framework(args):
                 mapping.relationship,
             ])
 
-    print(tabulate(
-        rows,
-        headers=["Source", "Source Name", "Target", "Target Name", "Rel"],
-        tablefmt="github",
-    ))
+    headers = ["Source", "Source Name", "Target", "Target Name", "Rel"]
+    if args.format == "json":
+        json_data = [dict(zip(headers, row)) for row in rows]
+        print(json.dumps(json_data, indent=2))
+    elif args.format == "csv":
+        writer = csv.writer(sys.stdout)
+        writer.writerow(headers)
+        writer.writerows(rows)
+    else:
+        print(tabulate(
+            rows,
+            headers=headers,
+            tablefmt="github",
+        ))
 
 def cmd_coverage(args):
     """Show mapping coverage statistics."""
     mapper = build_mapper()
     coverage = mapper.get_coverage(args.source_framework, args.target_framework)
     
-    print(f"\n=== Mapping Coverage ===")
-    print(f"Source Framework: {coverage['source_framework']}")
-    print(f"Target Framework: {coverage['target_framework']}")
-    print(f"Total Controls: {coverage['total_controls']}")
-    print(f"Mapped Controls: {coverage['mapped_controls']}")
-    print(f"Coverage: {coverage['coverage_percent']}%\n")
+    if args.format == "json":
+        print(json.dumps(coverage, indent=2))
+    elif args.format == "csv":
+        writer = csv.writer(sys.stdout)
+        writer.writerow(coverage.keys())
+        writer.writerow(coverage.values())
+    else:
+        print(f"\n=== Mapping Coverage ===")
+        print(f"Source Framework: {coverage['source_framework']}")
+        print(f"Target Framework: {coverage['target_framework']}")
+        print(f"Total Controls: {coverage['total_controls']}")
+        print(f"Mapped Controls: {coverage['mapped_controls']}")
+        print(f"Coverage: {coverage['coverage_percent']}%\n")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -104,18 +132,21 @@ def main():
     p1 = sub.add_parser("map-control", help="Map a single control")
     p1.add_argument("--framework", required=True, help="Source framework (e.g., NIST800-53)")
     p1.add_argument("--control-id", required=True, help="Control ID (e.g., AC-2)")
+    p1.add_argument("--format", choices=["table", "json", "csv"], default="table", help="Output format")
     p1.set_defaults(func=cmd_map_control)
 
     # Map entire framework
     p2 = sub.add_parser("map-framework", help="Map an entire framework to another")
     p2.add_argument("--source-framework", required=True, help="Source framework")
     p2.add_argument("--target-framework", required=True, help="Target framework")
+    p2.add_argument("--format", choices=["table", "json", "csv"], default="table", help="Output format")
     p2.set_defaults(func=cmd_map_framework)
 
     # Coverage statistics
     p3 = sub.add_parser("coverage", help="Show mapping coverage statistics")
     p3.add_argument("--source-framework", required=True, help="Source framework")
     p3.add_argument("--target-framework", required=True, help="Target framework")
+    p3.add_argument("--format", choices=["table", "json", "csv"], default="table", help="Output format")
     p3.set_defaults(func=cmd_coverage)
 
     args = parser.parse_args()

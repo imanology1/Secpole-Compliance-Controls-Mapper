@@ -1,4 +1,4 @@
-requirements.txt  pydantic
+pydantic
 pandas
 tabulate
 pyyaml
