@@ -6,25 +6,31 @@ from tabulate import tabulate
 from mapper.loader import load_controls, load_mappings
 from mapper.engine import ControlMapper
 
+import os
+import glob
+
 def build_mapper():
     """Load all controls and mappings, return mapper instance."""
     controls = []
     
-    # Load controls from each framework
-    try:
-        controls += load_controls("data/nist80053_controls.csv", "NIST800-53")
-    except FileNotFoundError:
-        print("Warning: NIST 800-53 controls file not found")
-    
-    try:
-        controls += load_controls("data/iso27001_controls.csv", "ISO27001")
-    except FileNotFoundError:
-        print("Warning: ISO 27001 controls file not found")
-    
-    try:
-        controls += load_controls("data/soc2_controls.csv", "SOC2")
-    except FileNotFoundError:
-        print("Warning: SOC 2 controls file not found")
+    # Dynamically load controls from all *_controls.csv files in data/
+    control_files = glob.glob("data/*_controls.csv")
+    for file_path in control_files:
+        filename = os.path.basename(file_path)
+        # Extract framework name (e.g., nist80053_controls.csv -> NIST80053)
+        framework = filename.replace("_controls.csv", "").upper().replace("_", "")
+        # Adjust framework name to keep hyphens for common frameworks if needed
+        if framework == "NIST80053":
+            framework = "NIST800-53"
+        elif framework == "NIST800171":
+            framework = "NIST800-171"
+        elif framework == "NISTCSF":
+            framework = "NIST-CSF"
+
+        try:
+            controls += load_controls(file_path, framework)
+        except Exception as e:
+            print(f"Warning: Failed to load controls from {file_path}: {e}")
     
     # Load mappings
     try:
