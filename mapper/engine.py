@@ -37,8 +37,15 @@ class ControlMapper:
             target_key = (m.target_framework, m.target_id)
             target_control = self.controls_by_key.get(target_key)
             
-            if target_control:
-                results.append((m, target_control))
+            # If target control description is missing in our db, we mock one so the mapping still shows up
+            if not target_control:
+                target_control = Control(
+                    framework=m.target_framework,
+                    id=m.target_id,
+                    name="Unknown (Control details not loaded)",
+                    description=""
+                )
+            results.append((m, target_control))
         
         return results
 
