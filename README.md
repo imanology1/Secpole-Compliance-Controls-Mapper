@@ -41,17 +41,45 @@ Secpol/
 └── cli.py
 ```
 
-## Installation
+## Installation & Running (MacBook / Local)
+
+Secpol is comprised of a Python backend (CLI and FastAPI) and a React/Next.js frontend.
+
+### 1. Start the Backend API
+The backend requires Python 3.7+ and manages the data models and compliance mapping engine.
 
 ```bash
+# Clone the repository
 git clone <repository_url>
 cd Secpol
+
+# Install Python dependencies
 pip install -r requirements.txt
+
+# Start the FastAPI server on port 8000
+uvicorn api.main:app --reload
 ```
+*The API will be available at `http://localhost:8000`.*
 
-## Usage
+### 2. Start the Frontend Dashboard
+Open a new terminal window to start the frontend application (requires Node.js and npm).
 
-Secpol operates via a powerful command-line interface (`cli.py`). All commands support outputting to `table` (default), `json`, or `csv` via the `--format` flag.
+```bash
+cd Secpol/frontend
+
+# Install Node dependencies
+npm install
+
+# Start the Next.js development server
+npm run dev
+```
+*The Dashboard will be available at `http://localhost:3000`.*
+
+---
+
+## CLI Usage
+
+In addition to the web dashboard, Secpol operates via a powerful command-line interface (`cli.py`). All commands support outputting to `table` (default), `json`, or `csv` via the `--format` flag.
 
 ### Map a Single Control
 
