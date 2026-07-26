@@ -90,18 +90,42 @@ export default function SystemDetail() {
           <button className="px-6 py-3 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">Controls</button>
           <button className="px-6 py-3 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">Risks</button>
           <button className="px-6 py-3 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">Documentation</button>
+          <button className="px-6 py-3 text-sm font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">Activity</button>
         </div>
 
         {/* Tab Content - Overview */}
-        <div className="p-6 grid grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-lg font-semibold flex items-center gap-2 mb-4">
-              <Target className="w-5 h-5 text-brand-500" />
-              Intended Purpose
-            </h3>
-            <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-              {system.intended_purpose}
-            </p>
+        <div className="p-6 grid grid-cols-3 gap-8">
+          <div className="col-span-2 space-y-8">
+            <div>
+              <h3 className="text-lg font-semibold flex items-center gap-2 mb-4">
+                <Target className="w-5 h-5 text-brand-500" />
+                Intended Purpose
+              </h3>
+              <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed cursor-text hover:bg-slate-50 dark:hover:bg-slate-800 p-2 -ml-2 rounded transition-colors group relative">
+                {system.intended_purpose}
+                <span className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 text-xs text-slate-400 font-medium">Click to edit</span>
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Recent Activity</h3>
+              <div className="space-y-4 relative before:absolute before:inset-0 before:ml-2.5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-200 dark:before:via-slate-800 before:to-transparent">
+                <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                  <div className="flex items-center justify-center w-6 h-6 rounded-full border border-white dark:border-slate-900 bg-slate-200 dark:bg-slate-700 text-slate-500 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow"></div>
+                  <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 dark:bg-slate-800/50 p-3 rounded-lg border border-slate-200 dark:border-slate-700">
+                    <p className="text-sm"><span className="font-medium text-slate-900 dark:text-slate-100">Alice Compliance</span> updated risk <span className="font-mono text-xs text-brand-500">RSK-001</span> status to <span className="font-medium text-emerald-500">Mitigated</span>.</p>
+                    <time className="block text-xs font-medium text-slate-500 mt-1">2 hours ago</time>
+                  </div>
+                </div>
+                <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                  <div className="flex items-center justify-center w-6 h-6 rounded-full border border-white dark:border-slate-900 bg-slate-200 dark:bg-slate-700 text-slate-500 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow"></div>
+                  <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 dark:bg-slate-800/50 p-3 rounded-lg border border-slate-200 dark:border-slate-700">
+                    <p className="text-sm"><span className="font-medium text-slate-900 dark:text-slate-100">Bob Data</span> attached new evidence <span className="italic">Data Lineage Diagram.png</span> to control <span className="font-mono text-xs text-brand-500">NIST-AIRMF MAP 1.1</span>.</p>
+                    <time className="block text-xs font-medium text-slate-500 mt-1">Yesterday at 4:32 PM</time>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold flex items-center gap-2 mb-4">
