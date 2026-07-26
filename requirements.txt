@@ -2,3 +2,5 @@ pydantic
 pandas
 tabulate
 pyyaml
+fastapi
+uvicorn
