@@ -1,6 +1,6 @@
-pydantic
-pandas
-tabulate
-pyyaml
-fastapi
-uvicorn
+pydantic>=2.0
+pandas>=2.0
+tabulate>=0.9
+pyyaml>=6.0
+fastapi>=0.110
+uvicorn>=0.29

@@ -3,8 +3,7 @@ from typing import List
 from api.models.ai_system import AISystem, RiskClassification, ModelType
 from mapper.engine import ControlMapper
 from mapper.loader import load_controls, load_mappings
-import glob
-import os
+from mapper.frameworks import discover_control_files
 
 router = APIRouter(prefix="/api/systems", tags=["systems"])
 
@@ -29,11 +28,7 @@ mock_systems_db = [
 
 def get_engine():
     controls = []
-    for file_path in glob.glob("data/*_controls.csv"):
-        framework = os.path.basename(file_path).replace("_controls.csv", "").upper().replace("_", "")
-        if framework == "NIST80053": framework = "NIST800-53"
-        elif framework == "NIST800171": framework = "NIST800-171"
-        elif framework == "NISTCSF": framework = "NIST-CSF"
+    for file_path, framework in discover_control_files("data"):
         controls += load_controls(file_path, framework)
     mappings = load_mappings("data/mappings.csv")
     return ControlMapper(controls, mappings)
