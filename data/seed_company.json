@@ -1,0 +1,169 @@
+{
+  "company": {
+    "name": "Meridian Financial Services",
+    "sector": "Consumer fintech / lending",
+    "jurisdiction": "EU (Ireland HQ) + UK",
+    "description": "A fictional company used to simulate a multi-framework compliance audit. All systems, people, risks, and evidence below are invented for testing Secpol end to end."
+  },
+  "systems": [
+    {
+      "id": "SYS-001",
+      "name": "CreditLens Scoring Engine",
+      "owner": "Aoife Byrne",
+      "business_unit": "Consumer Lending",
+      "description": "Automated credit-worthiness scoring for personal loan applications.",
+      "intended_purpose": "Score applicants and produce an approve/refer/decline recommendation.",
+      "inputs": ["Application form", "Credit bureau report", "Bank transaction history", "Declared income"],
+      "outputs": ["Credit score (0-1000)", "Decision recommendation", "Top reason codes"],
+      "data_sources": ["Internal loan DB", "Experian", "Open Banking API"],
+      "model_type": "classical_ml",
+      "deployment_context": "customer-facing",
+      "eu_ai_act_risk_classification": "high",
+      "framework_profiles": ["EU-AIACT", "NIST-AIRMF", "ISO27001", "SOC2"]
+    },
+    {
+      "id": "SYS-002",
+      "name": "SentinelAML Transaction Monitor",
+      "owner": "Marek Kowalski",
+      "business_unit": "Financial Crime",
+      "description": "Flags potentially suspicious transactions for anti-money-laundering review.",
+      "intended_purpose": "Detect anomalous transaction patterns and raise SAR candidates.",
+      "inputs": ["Transaction stream", "Customer KYC profile", "Sanctions lists"],
+      "outputs": ["Risk alert", "Alert priority", "Narrative summary"],
+      "data_sources": ["Core banking ledger", "Refinitiv World-Check", "Internal KYC store"],
+      "model_type": "classical_ml",
+      "deployment_context": "internal-analyst",
+      "eu_ai_act_risk_classification": "high",
+      "framework_profiles": ["EU-AIACT", "NIST-AIRMF", "NIST800-53", "SOC2"]
+    },
+    {
+      "id": "SYS-003",
+      "name": "Aria Support Assistant",
+      "owner": "Priya Nair",
+      "business_unit": "Customer Operations",
+      "description": "Generative chatbot that answers customer product questions and drafts agent replies.",
+      "intended_purpose": "Deflect routine support queries and assist human agents.",
+      "inputs": ["Customer message", "Knowledge base", "Account context"],
+      "outputs": ["Chat response", "Suggested agent reply", "Escalation flag"],
+      "data_sources": ["Support KB", "CRM (read-only)"],
+      "model_type": "foundation_model",
+      "deployment_context": "customer-facing",
+      "eu_ai_act_risk_classification": "limited",
+      "framework_profiles": ["EU-AIACT", "ISO42001", "SOC2"]
+    },
+    {
+      "id": "SYS-004",
+      "name": "FraudGuard Realtime",
+      "owner": "Tom Ellis",
+      "business_unit": "Payments",
+      "description": "Real-time card-payment fraud detection at authorization time.",
+      "intended_purpose": "Approve, challenge, or block card transactions in under 100ms.",
+      "inputs": ["Authorization request", "Device fingerprint", "Historical spend profile"],
+      "outputs": ["Fraud score", "Auth decision", "Challenge (3DS) flag"],
+      "data_sources": ["Payment switch", "Device intelligence vendor"],
+      "model_type": "classical_ml",
+      "deployment_context": "customer-facing",
+      "eu_ai_act_risk_classification": "minimal",
+      "framework_profiles": ["NIST800-53", "SOC2", "ISO27001"]
+    }
+  ],
+  "risks": [
+    {
+      "id": "RSK-001",
+      "system_id": "SYS-001",
+      "name": "Proxy discrimination via postcode",
+      "description": "Postcode and transaction features may act as proxies for protected characteristics, producing disparate decline rates.",
+      "severity": "high",
+      "status": "in_progress",
+      "owner": "Aoife Byrne",
+      "mitigation_plan": "Run quarterly disparate-impact testing; remove postcode; add fairness constraint.",
+      "linked_controls": ["EU-AIACT Article 10.2", "NIST-AIRMF MEASURE 2.11"]
+    },
+    {
+      "id": "RSK-002",
+      "system_id": "SYS-001",
+      "name": "No human review on declines",
+      "description": "High-risk automated decisions lack a documented human-in-the-loop override path.",
+      "severity": "critical",
+      "status": "open",
+      "owner": "Aoife Byrne",
+      "mitigation_plan": "Implement mandatory human review for all declines above threshold.",
+      "linked_controls": ["EU-AIACT Article 14.1"]
+    },
+    {
+      "id": "RSK-003",
+      "system_id": "SYS-002",
+      "name": "Alert model drift",
+      "description": "AML model performance degrades as laundering typologies evolve; false-negative rate rising.",
+      "severity": "high",
+      "status": "open",
+      "owner": "Marek Kowalski",
+      "mitigation_plan": "Establish monthly backtesting and a drift-monitoring dashboard.",
+      "linked_controls": ["NIST-AIRMF MEASURE 2.6"]
+    },
+    {
+      "id": "RSK-004",
+      "system_id": "SYS-003",
+      "name": "Hallucinated product terms",
+      "description": "Generative assistant may state incorrect fees or terms to customers.",
+      "severity": "medium",
+      "status": "mitigated",
+      "owner": "Priya Nair",
+      "mitigation_plan": "Retrieval-grounded responses + disclaimer + confidence-gated escalation. Deployed.",
+      "linked_controls": ["ISO42001 8.3"]
+    },
+    {
+      "id": "RSK-005",
+      "system_id": "SYS-004",
+      "name": "Vendor data-sharing exposure",
+      "description": "Device-intelligence vendor receives payment metadata; DPA scope unverified.",
+      "severity": "medium",
+      "status": "open",
+      "owner": "Tom Ellis",
+      "mitigation_plan": "Review vendor DPA and data-minimization; confirm sub-processor list.",
+      "linked_controls": ["ISO27001 A.5.19"]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-001",
+      "system_id": "SYS-001",
+      "control_id": "EU-AIACT Article 10.2",
+      "name": "Q2 disparate-impact test report",
+      "description": "Fairness testing across protected groups; two segments flagged for follow-up.",
+      "url": "file:///audit/creditlens/di_report_q2.pdf",
+      "uploaded_by": "Aoife Byrne",
+      "uploaded_at": "2026-06-30T10:00:00Z"
+    },
+    {
+      "id": "EV-002",
+      "system_id": "SYS-001",
+      "control_id": "EU-AIACT Article 11",
+      "name": "CreditLens technical documentation pack",
+      "description": "System architecture, data lineage, and model card per Annex IV.",
+      "url": "file:///audit/creditlens/tech_doc_v3.pdf",
+      "uploaded_by": "Aoife Byrne",
+      "uploaded_at": "2026-07-15T09:30:00Z"
+    },
+    {
+      "id": "EV-003",
+      "system_id": "SYS-002",
+      "control_id": "SOC2 CC7.2",
+      "name": "AML alert monitoring runbook",
+      "description": "On-call runbook and logging evidence for alert-pipeline monitoring.",
+      "url": "file:///audit/sentinel/monitoring_runbook.md",
+      "uploaded_by": "Marek Kowalski",
+      "uploaded_at": "2026-07-01T14:00:00Z"
+    },
+    {
+      "id": "EV-004",
+      "system_id": "SYS-003",
+      "control_id": "ISO42001 8.3",
+      "name": "RAG grounding evaluation",
+      "description": "Eval showing hallucination rate reduced below 1% on product-terms test set.",
+      "url": "file:///audit/aria/grounding_eval.xlsx",
+      "uploaded_by": "Priya Nair",
+      "uploaded_at": "2026-07-20T11:00:00Z"
+    }
+  ]
+}
