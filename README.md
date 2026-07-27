@@ -45,7 +45,7 @@ Secpol/
 
 ```bash
 git clone <repository_url>
-cd Secpol
+cd Secpole-Compliance-Controls-Mapper
 pip install -r requirements.txt
 ```
 
