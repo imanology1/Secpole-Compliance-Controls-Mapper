@@ -77,6 +77,45 @@ Calculate what percentage of a source framework is covered by a target framework
 python cli.py coverage --source-framework SCF --target-framework NIST800-53
 ```
 
+Coverage now reports both a plain percentage and a **weighted** percentage
+(equivalent=1.0, partial=0.5, related=0.25), plus how many controls are locally
+defined versus known only through mappings.
+
+### Gap Analysis
+
+List the specific source controls that have **no** mapping to a target — the
+inverse of coverage, and the actual audit deliverable.
+
+```bash
+python cli.py gap --source-framework NIST800-53 --target-framework SOC2
+```
+
+### Multi-Hop Mapping (transitive reach)
+
+Frameworks are connected through pivots like the SCF. These commands walk chains
+of mappings so you can reach a target framework even with no direct mapping.
+
+```bash
+# Show the shortest chain connecting a control to a framework
+python cli.py trace --framework SOC2 --control-id CC6.3 --target-framework NIST-CSF
+
+# List every target control reachable within N hops, with a confidence score
+python cli.py map-transitive --framework NIST800-53 --control-id AC-2 \
+    --target-framework ISO27001 --max-hops 3
+```
+
+Confidence is the product of edge strengths along the path, so a 3-hop chain of
+`related` links scores far lower than a direct `equivalent` mapping.
+
+### Excel Report
+
+Generate a formatted `.xlsx` with an N×N coverage matrix and a detail sheet
+(mapped controls + gaps) for every framework pair.
+
+```bash
+python cli.py report --frameworks "NIST800-53,SOC2,ISO27001" --output report.xlsx
+```
+
 ## Data Sources & Extending the Tool
 
 ### Data Sources
