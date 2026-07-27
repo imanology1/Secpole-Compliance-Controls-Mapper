@@ -4,41 +4,27 @@ import csv
 import sys
 from tabulate import tabulate
 from mapper.loader import load_controls, load_mappings
-from mapper.engine import ControlMapper
-
-import os
-import glob
+from mapper.engine import ControlMapper, UnknownFrameworkError
+from mapper.frameworks import discover_control_files
 
 def build_mapper():
     """Load all controls and mappings, return mapper instance."""
     controls = []
-    
-    # Dynamically load controls from all *_controls.csv files in data/
-    control_files = glob.glob("data/*_controls.csv")
-    for file_path in control_files:
-        filename = os.path.basename(file_path)
-        # Extract framework name (e.g., nist80053_controls.csv -> NIST80053)
-        framework = filename.replace("_controls.csv", "").upper().replace("_", "")
-        # Adjust framework name to keep hyphens for common frameworks if needed
-        if framework == "NIST80053":
-            framework = "NIST800-53"
-        elif framework == "NIST800171":
-            framework = "NIST800-171"
-        elif framework == "NISTCSF":
-            framework = "NIST-CSF"
 
+    # Dynamically load controls from all *_controls.csv files in data/.
+    # Framework naming is centralized in mapper.frameworks (single source of truth).
+    for file_path, framework in discover_control_files("data"):
         try:
             controls += load_controls(file_path, framework)
         except Exception as e:
             print(f"Warning: Failed to load controls from {file_path}: {e}")
-    
-    # Load mappings
+
     try:
         mappings = load_mappings("data/mappings.csv")
     except FileNotFoundError:
         print("Error: Mappings file not found")
         mappings = []
-    
+
     return ControlMapper(controls, mappings)
 
 def cmd_map_control(args):
@@ -124,7 +110,8 @@ def cmd_coverage(args):
         print(f"\n=== Mapping Coverage ===")
         print(f"Source Framework: {coverage['source_framework']}")
         print(f"Target Framework: {coverage['target_framework']}")
-        print(f"Total Controls: {coverage['total_controls']}")
+        print(f"Total Known Controls: {coverage['total_controls']}")
+        print(f"  (of which locally defined: {coverage['defined_controls']})")
         print(f"Mapped Controls: {coverage['mapped_controls']}")
         print(f"Coverage: {coverage['coverage_percent']}%\n")
 
@@ -156,9 +143,13 @@ def main():
     p3.set_defaults(func=cmd_coverage)
 
     args = parser.parse_args()
-    
+
     if hasattr(args, "func"):
-        args.func(args)
+        try:
+            args.func(args)
+        except UnknownFrameworkError as e:
+            print(f"Error: {e}", file=sys.stderr)
+            sys.exit(1)
     else:
         parser.print_help()
 

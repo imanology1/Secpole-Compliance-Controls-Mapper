@@ -1,4 +1,10 @@
 id,name,description
+CC1.1,COSO Principle 1,The entity demonstrates a commitment to integrity and ethical values.
+CC1.2,COSO Principle 2,The board of directors demonstrates independence from management.
+CC2.1,COSO Principle 6,The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks.
+CC2.2,COSO Principle 7,The entity identifies risks to the achievement of its objectives across the entity.
+CC3.1,COSO Principle 13,"The entity obtains or generates and uses relevant, quality information."
+CC3.2,COSO Principle 14,The entity internally communicates information.
 CC6.1,Logical and Physical Access Controls,Restricts logical and physical access
 CC6.2,Prior to Issuing System Credentials,Identifies and authenticates users
 CC6.3,Multi-Factor Authentication,Requires multi-factor authentication
